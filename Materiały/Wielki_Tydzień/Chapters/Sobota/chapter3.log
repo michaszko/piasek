@@ -1,0 +1,205 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.4.5)  18 MAY 2019 13:01
+ restricted system commands enabled.
+**chapter3.tex
+(./chapter3.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/michaszko/.texlive2017/texmf-var/luatex-cache
+/generic)(using read cache: /var/lib/texmf/luatex-cache/generic /home/michaszko/
+.texlive2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/michaszko/.texlive2017/texmf-v
+ar/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/michaszko/.texlive2017/texmf-v
+ar/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.135 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+! Undefined control sequence.
+l.1 \section
+          {Orędzie i proroctwa}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{O
+            rędzie i proroctwa}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]Orędzie
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 		\begin{itemize}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+[] 
+ []
+
+! Undefined control sequence.
+l.8 			\item następuje zasypanie, potem \cc
+                                          ~ odmawia modlitwę, okadzenie ksi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+luaotfload | db : Font names database loaded from /home/michaszko/.texlive2017/t
+exmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/michasz
+ko/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 8--10
+\TU/lmr/m/it/10 Ex-
+ []
+
+
+Overfull \hbox (15.59999pt too wide) in paragraph at lines 8--10
+\TU/lmr/m/it/10 sul-
+ []
+
+
+Overfull \hbox (11.85002pt too wide) in paragraph at lines 8--10
+\TU/lmr/m/it/10 tet 
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for +lmr on input line 10.
+LaTeX Font Info:    No file lmr.fd. on input line 10.
+LaTeX Font Info:    Try loading font information for +cmr on input line 10.
+LaTeX Font Info:    No file cmr.fd. on input line 10.
+
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 10.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.10 			\item \aa
+               ~ biorą z kredensu świeczki i odpalają sobie, podobnie \mm1
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `/lmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 10.
+
+! Undefined control sequence.
+l.10 ...su świeczki i odpalają sobie, podobnie \mm
+                                                  1
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 10--11
+\OT1/lmr/m/n/10 \/cmr/m/n/10 a\nullfont biorą
+ []
+
+! Undefined control sequence.
+<recently read> \cc 
+    
+l.11 			\item \cc
+               2 na słowa \textit{O vere beata nox...} zapala lampy w prezb...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (7.67pt too wide) in paragraph at lines 11--17
+\TU/lmr/m/it/10 O
+ []
+
+
+Overfull \hbox (17.51003pt too wide) in paragraph at lines 11--17
+\TU/lmr/m/it/10 vere
+ []
+
+
+Overfull \hbox (21.72003pt too wide) in paragraph at lines 11--17
+\TU/lmr/m/it/10 beata
+ []
+
+
+Overfull \hbox (24.58002pt too wide) in paragraph at lines 11--17
+\TU/lmr/m/it/10 nox...
+ []
+
+)
+! Emergency stop.
+<*> chapter3.tex
+             
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 68 strings out of 494480
+ 100000,89155 words of node,token memory allocated 5727 words of node memory still in use:
+   35 hlist, 2 disc, 7 local_par, 1 dir, 181 glue, 5 kern, 28 penalty, 596 glyph
+, 38 attribute, 35 glue_spec, 38 attribute_list nodes
+   avail lists: 2:5,4:68,5:9,7:76,8:1,10:67
+ 4297 multiletter control sequences out of 65536+600000
+ 17 fonts using 868519 bytes
+ 22i,1n,16p,168b,180s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!
