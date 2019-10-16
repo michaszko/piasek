@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.4.5)  15 OCT 2019 11:58
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.4.5)  16 OCT 2019 15:11
  restricted system commands enabled.
-**Piasek.tex
-(./Piasek.tex
+**Zasady.tex
+(./Zasady.tex
 LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.140 seconds
+luaotfload | main : initialization completed in 0.118 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1777,9 +1777,33 @@ luaotfload | aux : no font with id 60
 +tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-)) (./Piasek.aux
-(./Chapters/title_page.aux))
-\openout1 = Piasek.aux
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen176
+\captionmargin@=\dimen177
+\captionwidth=\dimen178
+\caption@tempdima=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
+)
+\c@ContinuedFloat=\count299
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count300
+\c@subtable=\count301
+)
+\imagebox=\box50
+) (./Zasady.aux (./Chapters/title_page.aux))
+\openout1 = Zasady.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -1836,16 +1860,16 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen176
-\scratchbox=\box50
-\nofMPsegments=\count300
-\nofMParguments=\count301
+\scratchcounter=\count302
+\scratchdimen=\dimen183
+\scratchbox=\box51
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen177
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen184
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1864,8 +1888,8 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-\c@lstlisting=\count305
-\AtBeginShipoutBox=\box51
+\c@lstlisting=\count308
+\AtBeginShipoutBox=\box52
 Package hyperref Info: Link coloring OFF on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1874,16 +1898,18 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count306
+\c@section@level=\count309
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
 
-(./Piasek.out) (./Piasek.out)
+(./Zasady.out) (./Zasady.out)
 \@outlinefile=\write3
 
-\openout3 = Piasek.out
+\openout3 = Zasady.out
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 \openout2 = Chapters/title_page.aux
  (./Chapters/title_page.tex
@@ -1914,207 +1940,172 @@ LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 37.
 LaTeX Font Info:    Font shape `TU/libertinusmono(0)/m/n' will be
-(Font)              scaled to size 6.93335pt on input line 39.
+(Font)              scaled to size 6.93335pt on input line 37.
 ) [1
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Chapters/Palmowa/chapte
-r1.tex
-LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 1.
-LaTeX Font Info:    Font shape `TU/libertinusserif(0)/bx/n' will be
-(Font)              scaled to size 24.88pt on input line 1.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Chapters/chapter1.tex
 LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
 LaTeX Font Info:    Font shape `TU/libertinusserif(0)/bx/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
 LaTeX Font Info:    Font shape `TU/libertinusserif(0)/bx/sc' will be
 (Font)              scaled to size 14.4pt on input line 3.
+LaTeX Font Info:    Font shape `TU/libertinusserif(0)/bx/it' will be
+(Font)              scaled to size 10.0pt on input line 12.
+)
+(./Chapters/chapter2.tex
 LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 23.
-LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/n' will be
-(Font)              scaled to size 7.99539pt on input line 64.
-LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 64.
-LaTeX Font Info:    Font shape `TU/libertinusmath-regular.otf(3)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 64.
-LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 64.
+(Font)              scaled to size 10.0pt on input line 27.
  [2
 
-])
-(./Chapters/Palmowa/chapter2.tex
-LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 7.
-<Figures/Palmowa/PalmyNadOdra.pdf, id=139, 620.26732pt x 289.71237pt>
-File: Figures/Palmowa/PalmyNadOdra.pdf Graphic file (type pdf)
-<use Figures/Palmowa/PalmyNadOdra.pdf>
-Package luatex.def Info: Figures/Palmowa/PalmyNadOdra.pdf  used on input line 15
-.
-(luatex.def)             Requested size: 483.69687pt x 225.9261pt.
-<Figures/Palmowa/PalmyNadOdra2.pdf, id=140, 620.26732pt x 289.71237pt>
-File: Figures/Palmowa/PalmyNadOdra2.pdf Graphic file (type pdf)
-<use Figures/Palmowa/PalmyNadOdra2.pdf>
-Package luatex.def Info: Figures/Palmowa/PalmyNadOdra2.pdf  used on input line 3
-5.
-(luatex.def)             Requested size: 483.69687pt x 225.9261pt.
- [3<./Figures/Palmowa/PalmyNadOdra.pdf>]
-<Figures/Palmowa/PalmyNadOdra3.pdf, id=173, 188.31354pt x 204.5241pt>
-File: Figures/Palmowa/PalmyNadOdra3.pdf Graphic file (type pdf)
-<use Figures/Palmowa/PalmyNadOdra3.pdf>
-Package luatex.def Info: Figures/Palmowa/PalmyNadOdra3.pdf  used on input line 6
-2.
-(luatex.def)             Requested size: 125.75851pt x 136.58414pt.
+]) (./Chapters/chapter3.tex [3])
+(./Chapters/chapter4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[4]
+<Figures/wyjscie.pdf, id=81, 239.00291pt x 304.90913pt>
+File: Figures/wyjscie.pdf Graphic file (type pdf)
+<use Figures/wyjscie.pdf>
+Package luatex.def Info: Figures/wyjscie.pdf  used on input line 17.
+(luatex.def)             Requested size: 140.26883pt x 178.95036pt.
+<Figures/wejscie_1.pdf, id=82, 239.00291pt x 265.56215pt>
+File: Figures/wejscie_1.pdf Graphic file (type pdf)
+<use Figures/wejscie_1.pdf>
+Package luatex.def Info: Figures/wejscie_1.pdf  used on input line 23.
+(luatex.def)             Requested size: 193.47578pt x 214.97449pt.
+LaTeX Font Info:    Font shape `TU/libertinusserif(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 26.
+LaTeX Font Info:    Font shape `TU/libertinusserif(0)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 26.
+<Figures/wejscie_2.pdf, id=83, 322.60524pt x 186.09525pt>
+File: Figures/wejscie_2.pdf Graphic file (type pdf)
+<use Figures/wejscie_2.pdf>
+Package luatex.def Info: Figures/wejscie_2.pdf  used on input line 31.
+(luatex.def)             Requested size: 241.84843pt x 139.51428pt.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--35
+[][] [] 
+ []
+
+[5<./Figures/wyjscie.pdf><./Figures/wejscie_1.pdf><./Figures/wejscie_2.pdf>]
+<Figures/wyjscie_2.pdf, id=131, 239.44456pt x 236.0318pt>
+File: Figures/wyjscie_2.pdf Graphic file (type pdf)
+<use Figures/wyjscie_2.pdf>
+Package luatex.def Info: Figures/wyjscie_2.pdf  used on input line 41.
+(luatex.def)             Requested size: 193.47578pt x 190.72011pt.
+<Figures/wyjscie_1.pdf, id=132, 320.41708pt x 216.73973pt>
+File: Figures/wyjscie_1.pdf Graphic file (type pdf)
+<use Figures/wyjscie_1.pdf>
+Package luatex.def Info: Figures/wyjscie_1.pdf  used on input line 44.
+(luatex.def)             Requested size: 241.84843pt x 163.59615pt.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--53
+[][] [] 
+ []
+
+) (./Chapters/chapter5.tex
+LaTeX Font Info:    Font shape `TU/libertinusserif(0)/bx/itsc' will be
+(Font)              scaled to size 14.4pt on input line 1.
+<Figures/komunia_1.pdf, id=133, 392.64691pt x 335.74432pt>
+File: Figures/komunia_1.pdf Graphic file (type pdf)
+<use Figures/komunia_1.pdf>
+Package luatex.def Info: Figures/komunia_1.pdf  used on input line 19.
+(luatex.def)             Requested size: 241.84843pt x 206.80171pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4<./Figures/Palmowa/PalmyNadOdra2.pdf>]) (./Chapters/Palmowa/chapter3.tex)
-(./Chapters/Palmowa/chapter4.tex [5<./Figures/Palmowa/PalmyNadOdra3.pdf>])
-[6] (./Chapters/Piatek/chapter1.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.1'
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'subsection
-.1.1'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'subsection
-.1.2'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'subsection
-.1.3'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'subsection
-.1.4'
-[7]) (./Chapters/Piatek/chapter2.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.2'
-
-<Figures/Piatek/Wejscie.pdf, id=241, 410.53375pt x 183.68625pt>
-File: Figures/Piatek/Wejscie.pdf Graphic file (type pdf)
-<use Figures/Piatek/Wejscie.pdf>
-Package luatex.def Info: Figures/Piatek/Wejscie.pdf  used on input line 8.
-(luatex.def)             Requested size: 287.37166pt x 128.57947pt.
-) (./Chapters/Piatek/chapter3.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.3'
-
-) (./Chapters/Piatek/chapter4.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.4'
-
-[8<./Figures/Piatek/Wejscie.pdf>]
-<Figures/Piatek/Obraz.pdf, id=256, 344.28625pt x 254.9525pt>
-File: Figures/Piatek/Obraz.pdf Graphic file (type pdf)
-<use Figures/Piatek/Obraz.pdf>
-Package luatex.def Info: Figures/Piatek/Obraz.pdf  used on input line 28.
-(luatex.def)             Requested size: 240.99872pt x 178.46552pt.
- [9<./Figures/Piatek/Obraz.pdf>]
-<Figures/Piatek/Adoracja.pdf, id=276, 442.65375pt x 499.8675pt>
-File: Figures/Piatek/Adoracja.pdf Graphic file (type pdf)
-<use Figures/Piatek/Adoracja.pdf>
-Package luatex.def Info: Figures/Piatek/Adoracja.pdf  used on input line 61.
-(luatex.def)             Requested size: 265.59428pt x 299.9228pt.
-)
-(./Chapters/Piatek/chapter5.tex
-<Figures/Piatek/NSakrament.pdf, id=277, 421.575pt x 160.6pt>
-File: Figures/Piatek/NSakrament.pdf Graphic file (type pdf)
-<use Figures/Piatek/NSakrament.pdf>
-Package luatex.def Info: Figures/Piatek/NSakrament.pdf  used on input line 12.
-(luatex.def)             Requested size: 252.94695pt x 96.36073pt.
-
+<Figures/komunia_2.pdf, id=134, 392.64691pt x 233.31165pt>
+File: Figures/komunia_2.pdf Graphic file (type pdf)
+<use Figures/komunia_2.pdf>
+Package luatex.def Info: Figures/komunia_2.pdf  used on input line 28.
+(luatex.def)             Requested size: 241.84843pt x 143.7083pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10<./Figures/Piatek/Adoracja.pdf>]) (./Chapters/Piatek/chapter6.tex [11<./Figur
-es/Piatek/NSakrament.pdf>]
-<Figures/Piatek/Procesja1.pdf, id=326, 616.3025pt x 459.7175pt>
-File: Figures/Piatek/Procesja1.pdf Graphic file (type pdf)
-<use Figures/Piatek/Procesja1.pdf>
-Package luatex.def Info: Figures/Piatek/Procesja1.pdf  used on input line 26.
-(luatex.def)             Requested size: 369.78435pt x 275.83263pt.
-<Figures/Piatek/Procesja2.pdf, id=327, 338.26375pt x 317.185pt>
-File: Figures/Piatek/Procesja2.pdf Graphic file (type pdf)
-<use Figures/Piatek/Procesja2.pdf>
-Package luatex.def Info: Figures/Piatek/Procesja2.pdf  used on input line 33.
-(luatex.def)             Requested size: 236.78299pt x 222.02797pt.
-) (./Chapters/Piatek/chapter7.tex
-<Figures/Piatek/Komunia1.pdf, id=329, 388.45125pt x 331.2375pt>
-File: Figures/Piatek/Komunia1.pdf Graphic file (type pdf)
-<use Figures/Piatek/Komunia1.pdf>
-Package luatex.def Info: Figures/Piatek/Komunia1.pdf  used on input line 12.
-(luatex.def)             Requested size: 194.22514pt x 165.61833pt.
-
+<Figures/komunia_3.pdf, id=135, 498.97415pt x 311.86514pt>
+File: Figures/komunia_3.pdf Graphic file (type pdf)
+<use Figures/komunia_3.pdf>
+Package luatex.def Info: Figures/komunia_3.pdf  used on input line 37.
+(luatex.def)             Requested size: 241.84843pt x 151.15924pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12<./Figures/Piatek/Procesja1.pdf><./Figures/Piatek/Procesja2.pdf>]
-<Figures/Piatek/Komunia2.pdf, id=363, 388.45125pt x 228.855pt>
-File: Figures/Piatek/Komunia2.pdf Graphic file (type pdf)
-<use Figures/Piatek/Komunia2.pdf>
-Package luatex.def Info: Figures/Piatek/Komunia2.pdf  used on input line 20.
-(luatex.def)             Requested size: 194.22514pt x 114.42722pt.
-<Figures/Piatek/Komunia3.pdf, id=364, 494.84875pt x 307.1475pt>
-File: Figures/Piatek/Komunia3.pdf Graphic file (type pdf)
-<use Figures/Piatek/Komunia3.pdf>
-Package luatex.def Info: Figures/Piatek/Komunia3.pdf  used on input line 29.
-(luatex.def)             Requested size: 247.42377pt x 153.57336pt.
- [13<./Figures/Piatek/Komunia1.pdf><./Figures/Piatek/Komunia2.pdf><./Figures/Pia
-tek/Komunia3.pdf>]) [14] (./Chapters/Sobota/chapter1.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.1'
+[6<./Figures/wyjscie_1.pdf><./Figures/wyjscie_2.pdf>] [7<./Figures/komunia_1.pdf
+><./Figures/komunia_2.pdf><./Figures/komunia_3.pdf>]
+<Figures/komunia_3_uro.pdf, id=212, 498.97415pt x 311.86514pt>
+File: Figures/komunia_3_uro.pdf Graphic file (type pdf)
+<use Figures/komunia_3_uro.pdf>
+Package luatex.def Info: Figures/komunia_3_uro.pdf  used on input line 67.
+(luatex.def)             Requested size: 241.84843pt x 151.15924pt.
+<Figures/komunia_3_uro_diak.pdf, id=213, 498.97415pt x 311.86514pt>
+File: Figures/komunia_3_uro_diak.pdf Graphic file (type pdf)
+<use Figures/komunia_3_uro_diak.pdf>
+Package luatex.def Info: Figures/komunia_3_uro_diak.pdf  used on input line 79.
+(luatex.def)             Requested size: 241.84843pt x 151.15924pt.
+<Figures/komunia_1_uro_bez.pdf, id=214, 392.64691pt x 369.88188pt>
+File: Figures/komunia_1_uro_bez.pdf Graphic file (type pdf)
+<use Figures/komunia_1_uro_bez.pdf>
+Package luatex.def Info: Figures/komunia_1_uro_bez.pdf  used on input line 91.
+(luatex.def)             Requested size: 241.84843pt x 227.82874pt.
+<Figures/komunia_3_uro_diak_bez.pdf, id=215, 498.97415pt x 311.86514pt>
+File: Figures/komunia_3_uro_diak_bez.pdf Graphic file (type pdf)
+<use Figures/komunia_3_uro_diak_bez.pdf>
+Package luatex.def Info: Figures/komunia_3_uro_diak_bez.pdf  used on input line 
+98.
+(luatex.def)             Requested size: 241.84843pt x 151.15924pt.
+ [8
+
+<./Figures/komunia_3_uro.pdf>] [9<./Figures/komunia_3_uro_diak.pdf><./Figures/ko
+munia_1_uro_bez.pdf><./Figures/komunia_3_uro_diak_bez.pdf>]) (./Chapters/chapte
+r6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'subsection
-.1.1'
-) (./Chapters/Sobota/chapter2.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.2'
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
-) (./Chapters/Sobota/chapter3.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.3'
+ []
 
-[15]) (./Chapters/Sobota/chapter4.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.4'
+) [10
 
-[16]) (./Chapters/Sobota/chapter5.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'section.5'
-
-[17]) [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
- (./Piasek.aux (./Chapters/title_page.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
-Package rerunfilecheck Info: File `Piasek.out' has not changed.
-(rerunfilecheck)             Checksum: AFCF655223DE21519799B833B5CC2B8B;2062.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+ (./Zasady.aux (./Chapters/title_page.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
+Package rerunfilecheck Info: File `Zasady.out' has not changed.
+(rerunfilecheck)             Checksum: 15DDC24FAD6DF8D588A36CBB2CF459C9;904.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26032 strings out of 494480
+ 27004 strings out of 494480
  100000,794899 words of node,token memory allocated
- 625 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 14 glue, 1 kern, 17 attribute, 58 glue_spec, 17 att
-ribute_list, 1 write nodes
-   avail lists: 1:1,2:631,3:174,4:83,5:252,6:2481,7:879,8:15,9:167,10:8,11:293
- 28581 multiletter control sequences out of 65536+600000
- 94 fonts using 32754151 bytes
- 61i,8n,121p,1114b,608s stack positions out of 5000i,500n,10000p,200000b,100000s
-
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.4'
-
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.3'
-
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.2'
-
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
+ 521 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 8 attribute, 57 glue_spec, 8 attrib
+ute_list, 1 write nodes
+   avail lists: 2:600,3:172,4:68,5:299,6:3780,7:916,8:40,9:166,10:10,11:524
+ 29661 multiletter control sequences out of 65536+600000
+ 89 fonts using 30117119 bytes
+ 61i,9n,121p,1134b,680s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/michaszko/.local/share/fonts/libertinusserif-italic.otf></home/michaszko/
-.local/share/fonts/libertinusmono-regular.otf></home/michaszko/.local/share/font
-s/libertinusserif-regular.otf></home/michaszko/.local/share/fonts/libertinusmath
--regular.otf></home/michaszko/.local/share/fonts/libertinusserif-bold.otf></usr/
-share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Piasek.pdf (18 pages, 156657 bytes).
+.local/share/fonts/libertinusserif-bolditalic.otf></home/michaszko/.local/share/
+fonts/libertinusmono-regular.otf></home/michaszko/.local/share/fonts/libertinuss
+erif-regular.otf></home/michaszko/.local/share/fonts/libertinusmath-regular.otf>
+</home/michaszko/.local/share/fonts/libertinusserif-bold.otf></usr/share/texlive
+/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Zasady.pdf (10 pages, 129322 bytes).
 
-PDF statistics: 469 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 57 named destinations out of 1000 (max. 131072)
- 265 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 332 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 33 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 

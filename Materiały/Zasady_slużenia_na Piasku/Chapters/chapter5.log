@@ -1,0 +1,2062 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.4.5)  16 OCT 2019 13:29
+ restricted system commands enabled.
+**chapter5.tex
+(./chapter5.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/michaszko/.texlive2017/texmf-var/luatex-cache
+/generic)(using read cache: /var/lib/texmf/luatex-cache/generic /home/michaszko/
+.texlive2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/michaszko/.texlive2017/texmf-v
+ar/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/michaszko/.texlive2017/texmf-v
+ar/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.114 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+! Undefined control sequence.
+l.1 	\section
+           {Komunia Święta \textit{bardziej uroczysta}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 	\section{K
+             omunia Święta \textit{bardziej uroczysta}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+luaotfload | db : Font names database loaded from /home/michaszko/.texlive2017/t
+exmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/michasz
+ko/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]Komunia
+ []
+
+
+Overfull \hbox (32.85004pt too wide) in paragraph at lines 1--2
+\TU/lmr/m/it/10 bardziej
+ []
+
+
+Overfull \hbox (40.09001pt too wide) in paragraph at lines 1--2
+\TU/lmr/m/it/10 uroczysta 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 		D
+     o lucenarium wyznacza się 6 ministrantów siedzących w chórze. Możn...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.3 ...edzących w chórze. Można je	wykonać z \cc
+                                                  2 lub z samym \tt~ – zal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3 ...ze. Można je	wykonać z \cc2 lub z samym \tt
+                                                  ~ – zależy od ilości m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3 ...ości ministrantów i potrzeb. Gdy nie ma \cc
+                                                  2 \tt~ prowadzi i daje zna...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3 ... ministrantów i potrzeb. Gdy nie ma \cc2 \tt
+                                                  ~ prowadzi i daje znaki.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
+[]Do
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 		\begin{itemize}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+[] 
+ []
+
+! Undefined control sequence.
+l.6 			\item Po okadzeniu ludu \tt
+                                ~ zatrzymuje się n przy stopniu prezbiteriu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 ... w kierunku ołtarza. Dołącza do niego \cc
+                                                  2 i 6 ministrantów wyznac...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.7 			\item Na znak \cc
+                      2 klękają i wychodzą do bocznej nawy po pochodnie.	...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(load luc: /home/michaszko/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl
+/lmroman10-regular.luc)(load luc: /home/michaszko/.texlive2017/texmf-var/luatex-
+cache/generic/fonts/otl/lmroman10-bold.luc)
+! Undefined control sequence.
+<write> ...ning: Reference `fig:wyjscie' on page \thepage 
+                                                  \space undefined\on@line .
+l.7 ...ej nawy po pochodnie.	(Rys. \ref{fig:wyjscie}
+                                                  )
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:wyjscie' on page  undefined on input line 7.
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 7--8
+[]) 
+ []
+
+! Undefined control sequence.
+<write> ...ng: Reference `fig:wejscie_1' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 ...hodząc się na boki (Rys.\ref{fig:wejscie_1}
+                                                  )
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:wejscie_1' on page  undefined on input line 9.
+
+
+Overfull \hbox (24.53pt too wide) in paragraph at lines 9--10
+\TU/lmr/m/it/10 Sanc-
+ []
+
+
+Overfull \hbox (12.78pt too wide) in paragraph at lines 9--10
+\TU/lmr/m/it/10 tus
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 9--10
+(Rys.[]) 
+ []
+
+! Undefined control sequence.
+<write> ...ng: Reference `fig:wejscie_2' on page \thepage 
+                                                  \space undefined\on@line .
+l.10 ...kają na dwa kolana (Rys.\ref{fig:wejscie_2}
+                                                  )
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:wejscie_2' on page  undefined on input line 10.
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 10--11
+(Rys.[]) 
+ []
+
+! Undefined control sequence.
+<recently read> \tt 
+    
+l.11 			\item \tt
+               ~ zajmuje miejsce z prawej strony na pierwszym stopniu ołtar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 ... a następnie przyklękają i na czele z \tt
+                                                  ~ i \cc2 wychodzą z prezb...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 ...ępnie przyklękają i na czele z \tt~ i \cc
+                                                  2 wychodzą z prezbiterium...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> ...ng: Reference `fig:wyjscie_1' on page \thepage 
+                                                  \space undefined\on@line .
+l.12 ...zą z prezbiterium (Rys. \ref{fig:wyjscie_1}
+                                                   oraz Rys. \ref{fig:wyjsci...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:wyjscie_1' on page  undefined on input line 12.
+
+! Undefined control sequence.
+<write> ...ng: Reference `fig:wyjscie_2' on page \thepage 
+                                                  \space undefined\on@line .
+l.12 ...fig:wyjscie_1} oraz Rys. \ref{fig:wyjscie_2}
+                                                  )
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:wyjscie_2' on page  undefined on input line 12.
+
+
+Overfull \hbox (15.6pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 Per
+ []
+
+
+Overfull \hbox (16.87pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 om-
+ []
+
+
+Overfull \hbox (13.8pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 nia
+ []
+
+
+Overfull \hbox (21.47002pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 saec-
+ []
+
+
+Overfull \hbox (13.04pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 ula
+ []
+
+
+Overfull \hbox (26.84001pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 saecu-
+ []
+
+
+Overfull \hbox (11.25pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 lo-
+ []
+
+
+Overfull \hbox (17.76999pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 rum
+ []
+
+
+Overfull \hbox (19.56001pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 Ore-
+ []
+
+
+Overfull \hbox (17.63998pt too wide) in paragraph at lines 12--13
+\TU/lmr/m/it/10 mus\nullfont ,
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 12--13
+[]
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 12--13
+[]) 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 		\begin{figure}
+                   [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.17 			\includegraphics
+                      [width=0.29\linewidth]{wyjscie}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.17 			\includegraphics[width=0.29\linewidth]
+                                            {wyjscie}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.17 			\includegraphics[width=0.29\linewidth]
+                                            {wyjscie}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 			\caption
+              {Wyjście ministrantów podczas ofiarowania}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 		\end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--21
+[][h]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 		\begin{figure}
+                   [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> \imagebox 
+          
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+\hbox 
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \includegraphics 
+                 [width=.4\linewidth ]{wejscie_1}
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 23.
+! Extra }, or forgotten $.
+<argument> \includegraphics [width=.4\linewidth ]{wejscie_1}
+                                                 
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\sbox ...hbox {\color@setgroup #2\color@endgroup }
+                                                  
+l.23 ...ludegraphics[width=.4\linewidth]{wejscie_1}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 			\begin{subfigure}
+                       [t]{.5\linewidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+}
+l.24 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+}
+l.24 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \imagebox 
+          
+l.25 				\centering\usebox{\imagebox}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+\relax 
+l.25 				\centering\usebox{\imagebox}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 				\caption
+               {Przed przyklęknięciem}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 			\end{subfigure}
+                     \qquad
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 			\begin{subfigure}
+                       [t]{.5\linewidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+}
+l.29 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+}
+l.29 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \includegraphics 
+                 [width=\linewidth ]{wejscie_2}
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> \includegraphics [width=\linewidth ]{wejscie_2}
+                                               
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\@begin@tempboxa ...begingroup #2\color@endgroup }
+                                                  \def \width {\wd \@tempbox...
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> \dimexpr \ht \imagebox 
+                       -\height 
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.31 ...ncludegraphics[width=\linewidth]{wejscie_2}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 				\caption
+               {Po przyklęknięciu}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 			\end{subfigure}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 			\caption
+              {Wejście ministrantów na \textit{Sanctus}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 		\end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.36 		\end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ś (U+015B) in font cmmi10!
+Missing character: There is no ś (U+015B) in font cmmi10!
+Missing character: There is no ó (U+00F3) in font cmmi10!
+Missing character: There is no ó (U+00F3) in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+}
+l.36 		\end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.36 		\end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--37
+[][ht]
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 		\newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+Missing character: There is no K (U+004B) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no Ś (U+015A) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ó (U+00F3) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no ó (U+00F3) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no ż (U+017C) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ć (U+0107) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no – (U+2013) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no ż (U+017C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no ś (U+015B) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ó (U+00F3) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no G (U+0047) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no ł (U+0142) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no ł (U+0142) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ó (U+00F3) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ć (U+0107) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ś (U+015B) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no U (U+0055) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no ł (U+0142) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no K (U+004B) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ł (U+0142) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no K (U+004B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no N (U+004E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no ł (U+0142) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no ę (U+0119) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no ą (U+0105) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no W (U+0057) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no ś (U+015B) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ó (U+00F3) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+
+! Undefined control sequence.
+<write> \newlabel{fig:wyjscie}{{}{\thepage 
+                                   }}
+l.38 		\newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{fig:wyjscie}{{}{}}
+Missing character: There is no [ (U+005B) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no ] (U+005D) in font nullfont!
+]
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 		\begin{figure}
+                   [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> \imagebox 
+          
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+\hbox 
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \includegraphics 
+                 [width=.4\linewidth ]{wyjscie_2}
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> \includegraphics [width=.4\linewidth ]{wyjscie_2}
+                                                 
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\sbox ...hbox {\color@setgroup #2\color@endgroup }
+                                                  
+l.41 ...ludegraphics[width=.4\linewidth]{wyjscie_2}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 			\begin{subfigure}
+                       [t]{.5\linewidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+}
+l.42 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+}
+l.42 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \includegraphics 
+                 [width=\linewidth ]{wyjscie_1}
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> \includegraphics [width=\linewidth ]{wyjscie_1}
+                                               
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\@begin@tempboxa ...begingroup #2\color@endgroup }
+                                                  \def \width {\wd \@tempbox...
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> \dimexpr \ht \imagebox 
+                       -\height 
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.44 ...ncludegraphics[width=\linewidth]{wyjscie_1}}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 				\caption
+               {Przed przyklęknięciem}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 			\end{subfigure}
+                     \qquad
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 			\begin{subfigure}
+                       [t]{.5\linewidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+}
+l.48 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+}
+l.48 			\begin{subfigure}[t]{.5\linewidth}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \imagebox 
+          
+l.49 				\centering\usebox{\imagebox}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+\relax 
+l.49 				\centering\usebox{\imagebox}
+                                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 				\caption
+               {Po przyklęknięciu}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 			\end{subfigure}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 			\caption
+              {Wyjście ministrantów po \textit{Per omnia secula seculorum}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 		\end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.54 		\end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ę (U+0119) in font cmmi10!
+Missing character: There is no ś (U+015B) in font cmmi10!
+Missing character: There is no ś (U+015B) in font cmmi10!
+Missing character: There is no ó (U+00F3) in font cmmi10!
+Missing character: There is no ó (U+00F3) in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+}
+l.54 		\end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.54 		\end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--55
+[][ht]
+ []
+
+
+Overfull \hbox (57.26999pt too wide) in paragraph at lines 56--58
+[]\TU/lmr/bx/n/10 Uwaga!
+ []
+
+)
+! Emergency stop.
+<*> chapter5.tex
+             
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 43 strings out of 494480
+ 100000,89155 words of node,token memory allocated 1254 words of node memory still in use:
+   6 hlist, 2 local_par, 1 dir, 27 glue, 2 kern, 3 penalty, 120 glyph, 4 attribu
+te, 35 glue_spec, 4 attribute_list nodes
+   avail lists: 2:163,3:125,4:31,5:31,6:792,7:272,8:75,9:72,10:30,11:7
+ 4276 multiletter control sequences out of 65536+600000
+ 27 fonts using 1608479 bytes
+ 20i,6n,16p,243b,146s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!
