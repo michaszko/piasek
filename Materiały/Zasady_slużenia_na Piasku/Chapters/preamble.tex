@@ -21,11 +21,15 @@
 
 \newsavebox{\imagebox}
 
+\setlist[enumerate]{leftmargin=-1cm}
+
 \allsectionsfont{\centering\textsc}
 
 \captionsetup[figure]{labelfont={bf},name={Rys.},labelsep=period}
 
 \graphicspath{ {Figures/} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\ii}{$\mathcal{X}$}
 \newcommand{\dd}{$\mathcal{D}$}
@@ -44,5 +48,14 @@
 		\hrulefill
 	\end{center}}
 
-\setlist[enumerate]{leftmargin=-1cm}
+\newcommand{\opis}[1]{
+	\begin{center}
+		\begin{minipage}{0.6\linewidth}
+			\centering
+			#1
+		\end{minipage}
+	\end{center}}
+
+
+
 
