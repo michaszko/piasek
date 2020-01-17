@@ -1,23 +1,26 @@
-\usepackage[utf8]{inputenc}
-\usepackage[margin=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage[T1]{fontenc}
-\usepackage{times}
-\usepackage[polish]{babel}
-\usepackage{pifont}
-\usepackage{listings}
-\usepackage{color}
-\usepackage{array}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage[bottom]{footmisc}
-\usepackage{sectsty}
-\usepackage[normalem]{ulem}
-\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
-\usepackage{libertinus-otf}
-\usepackage{caption}
-\usepackage{subcaption}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{instrukcja}[2011/03/26 My custom instruction class]
+\LoadClass{article}
+
+\RequirePackage[margin=2cm,top=2cm,bottom=2cm]{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{amsmath}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{times}
+\RequirePackage[polish]{babel}
+\RequirePackage{pifont}
+\RequirePackage{listings}
+\RequirePackage{color}
+\RequirePackage{array}
+\RequirePackage{enumitem}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage[bottom]{footmisc}
+\RequirePackage{sectsty}
+\RequirePackage[normalem]{ulem}
+\RequirePackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\RequirePackage{libertinus-otf}
+\RequirePackage{caption}
+\RequirePackage{subcaption}
 
 \newsavebox{\imagebox}
 
@@ -60,26 +63,18 @@
 
 \newcommand{\header}[1]{
 	\hrulefill
-
 	\vspace{0.7cm}
-
 	\begin{center}
 		\textbf{\textsc{{\Huge{#1}}}}
 	\end{center}
-
 	\vspace{0.5cm}
-
 	\hrulefill
 }
 
 \newcommand{\footer}[1]{
 	\vfill
-
-	\hrulefill
-
-	{
-		\footnotesize #1
-	}
+	\hrulefill\\
+	{\footnotesize #1}
 }
 
 
