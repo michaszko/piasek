@@ -17,6 +17,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{pgfornament}
 \RequirePackage[autocompile]{gregoriotex}
+\RequirePackage{afterpage}
 
 \renewcommand{\footrulewidth}{1pt}
 

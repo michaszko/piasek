@@ -1,13 +1,16 @@
+%! TeX program = lualatex
+%! TEX options = -synctex=1 -interaction=nonstopmode -file-line-error --shell-escape "%DOC%"
 \documentclass[12pt]{article}
 \usepackage[a4paper]{geometry}
 \usepackage{pdfpages}
-    \includepdfset{pages=-}
+
+\includepdfset{pages=-}
 
 %\author{N.~N}
 %\title{The booklet}
 
 \begin{document}
 
-    \includepdf[pages=-,nup=1x2,landscape,signature=36]{wigilia.pdf}
+\includepdf[pages=-,nup=1x2,landscape,signature=12]{popielec.pdf}
 
 \end{document}
