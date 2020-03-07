@@ -2,7 +2,7 @@
 \ProvidesClass{instrukcja}[2011/03/26 My custom instruction class]
 \LoadClass{article}
 
-\RequirePackage[margin=2cm,top=2cm,bottom=2cm]{geometry}
+\RequirePackage[margin=2.5cm,top=2cm,bottom=2cm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{amsmath}
 % \RequirePackage[T1]{fontenc}
@@ -22,10 +22,14 @@
 \RequirePackage{caption}
 \RequirePackage{subcaption}
 \RequirePackage{fontspec}
+\RequirePackage[textwidth=20mm]{todonotes}
+\RequirePackage{float}
+\RequirePackage{rotating}
+\RequirePackage{hyperref}
 
 \newsavebox{\imagebox}
 
-\setlist[enumerate]{leftmargin=-1cm}
+% \setlist[enumerate]{leftmargin=-1cm}
 
 \setlength{\parindent}{0cm}
 
@@ -45,6 +49,7 @@
 \newcommand{\cc}{${C}$}
 \newcommand{\oo}{${O}$}
 \newcommand{\mm}{${M}$}
+\newcommand{\zz}{${Z}$}
 
 \newcommand{\chapter}[1]{
 	\setcounter{section}{0}

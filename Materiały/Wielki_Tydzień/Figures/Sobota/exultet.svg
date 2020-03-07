@@ -1,0 +1,154 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="rectangle" id="id1789957018">
+            <rect x="306.00000000000006" y="1.0"
+                width="473.00000000000017" height="153.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id984171321">
+            <rect x="256.00000000000006" y="1.0"
+                width="573.0000000000002" height="198.00000000000006"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1923586815">
+            <rect x="356.00000000000006" y="1.0"
+                width="373.00000000000006" height="88.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id254949076">
+            <rect x="216.0" y="1.0" width="653.0" height="238.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1967315681">
+            <rect x="1006.0000000000002" y="1.0" width="73.0"
+                height="198.00000000000006" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id520410638" fill="black"
+            latexdraw:position="bl" transform="rotate(90.50588609037877) translate(-1039.227164722069 -1060.091706202309)">
+            <text x="1044.9999999999998" y="15.000000000000227">\Large KREDENCJA</text>
+        </g>
+        <g latexdraw:type="circle" id="id341114408">
+            <circle cx="960.0000000000001" cy="145.00000000000006"
+                r="24.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id762506277" fill="black" latexdraw:position="bl">
+            <text x="948.6666666666665" y="150.0">$\mathcal A2$</text>
+        </g>
+        <g latexdraw:type="circle" id="id518316573">
+            <circle cx="960.0000000000001" cy="45.00000000000006"
+                r="24.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1551137763" fill="black" latexdraw:position="bl">
+            <text x="948.6666666666665" y="50.0">$\mathcal A1$</text>
+        </g>
+        <g latexdraw:type="circle" id="id1698270842">
+            <circle cx="371.4761904761905" cy="613.3809523809518"
+                r="24.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1340091035" fill="black" latexdraw:position="bl">
+            <text x="362.1428571428569" y="618.3809523809518">$\mathcal C1$</text>
+        </g>
+        <g latexdraw:type="circle" id="id1719875395">
+            <circle cx="371.47619047619065" cy="493.38095238095184"
+                r="24.000000000000057" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id637915531" fill="black" latexdraw:position="bl">
+            <text x="365.1428571428569" y="497.38095238095184">$\mathcal T$</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1497613095">
+            <rect x="191.47619047619003" y="488.66666666666646"
+                width="30.0" height="109.99999999999994"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="#f38900" rx="1.0125000000000002"/>
+        </g>
+        <g latexdraw:type="circle" id="id1383079759">
+            <circle cx="205.9498746867162" cy="480.6140350877191"
+                r="7.105263157894626" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="#f90101"/>
+        </g>
+        <g latexdraw:type="circle" id="id502054785">
+            <circle cx="311.4761904761905" cy="553.3809523809518"
+                r="24.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id968863453" fill="black" latexdraw:position="bl">
+            <text x="304.01382488479203" y="559.6712749615972">$\mathcal X$</text>
+        </g>
+        <g latexdraw:type="circle" id="id1104617180">
+            <circle cx="962.064425770308" cy="238.08683473389283"
+                r="24.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id281528866" fill="black" latexdraw:position="bl">
+            <text x="952.7310924369744" y="243.08683473389283">$\mathcal C2$</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id25700385">
+            <polyline
+                points="272.0025062656638,528.9072681704253 272.0025062656638,579.9598997493727 "
+                stroke-width="4.0" stroke="#f2ff00" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="circle" id="id2057683250">
+            <circle cx="123.54385964912228" cy="548.1929824561403"
+                r="24.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1084043486" fill="black" latexdraw:position="bl">
+            <text x="119.65292262915227" y="554.4833050367856">\ding{63}</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id342218158">
+            <polyline
+                points="206.85225885225827,530.9658119658116 206.85225885225827,555.5811965811962 "
+                stroke-width="4.0" stroke="#010101" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id454985498">
+            <polyline
+                points="200.18069177769428,537.9084703502789 213.52382592682216,537.8693074274979 "
+                stroke-width="4.0" stroke="#010101" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id140391465">
+            <rect x="2.333333333333334" y="2.3333333333333144"
+                width="58.000000000000014" height="422.00000000000017"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id265752171" fill="black"
+            latexdraw:position="bl" transform="rotate(269.69800854765026) translate(-292.20204385202726 -215.33403407376665)">
+            <text x="39.0" y="253.00000000000026">\Large CH\'OR</text>
+        </g>
+    </g>
+    <defs/>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:latexIncludes>
+\usepackage{pifont}</latexdraw:latexIncludes>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:unit>CM</latexdraw:unit>
+            <latexdraw:zoom>0.8499999999999999</latexdraw:zoom>
+            <latexdraw:magneticGridStyle>CUSTOMISED</latexdraw:magneticGridStyle>
+            <latexdraw:gridGap>20</latexdraw:gridGap>
+            <latexdraw:magneticGrid>false</latexdraw:magneticGrid>
+            <latexdraw:version>3.3.9</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1867</latexdraw:width>
+                <latexdraw:height>1058</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>53.0</latexdraw:x>
+                <latexdraw:y>22.0</latexdraw:y>
+            </latexdraw:position>
+        </latexdraw:metadata>
+    </metadata>
+</svg>
