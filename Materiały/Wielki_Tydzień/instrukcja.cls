@@ -26,6 +26,10 @@
 \RequirePackage{float}
 \RequirePackage{rotating}
 \RequirePackage{hyperref}
+\RequirePackage{pdfpages}
+\RequirePackage{wasysym}
+\RequirePackage{tikzsymbols}
+
 
 \newsavebox{\imagebox}
 
@@ -50,6 +54,10 @@
 \newcommand{\oo}{${O}$}
 \newcommand{\mm}{${M}$}
 \newcommand{\zz}{${Z}$}
+\newcommand{\bb}{${B}$}
+\newcommand{\spiew}{\twonotes}
+\newcommand{\paschal}{\Candle[1.3]}
+\newcommand{\kolatki}{{\Large\bell}}
 
 \newcommand{\chapter}[1]{
 	\setcounter{section}{0}

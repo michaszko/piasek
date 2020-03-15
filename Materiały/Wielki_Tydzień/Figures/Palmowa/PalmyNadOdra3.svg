@@ -3,131 +3,163 @@
     xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
     version="1.1" baseProfile="full">
     <g>
-        <g latexdraw:type="rectangle" id="id1873104877">
-            <rect x="421.0" y="201.0" width="318.0" height="58.0"
-                latexdraw:borderPos="outer" stroke-width="2.0"
-                stroke="black" fill="none"/>
+        <g latexdraw:type="rectangle" id="id819414278">
+            <rect x="420.28571428571377" y="202.42857142857133"
+                width="318.0" height="58.0" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id258331838" fill="black" latexdraw:position="bl">
-            <text x="540.0" y="240.0">\textbf{\large{DRZWI}}</text>
+        <g latexdraw:type="text" id="id2037468495" fill="black" latexdraw:position="bl">
+            <text x="539.2857142857138" y="241.42857142857133">\textbf{\large{DRZWI}}</text>
         </g>
-        <g latexdraw:type="circle" id="id1310207784">
+        <g latexdraw:type="circle" id="id893034606">
             <circle cx="580.0" cy="300.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1251742782" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id270104533" fill="black" latexdraw:position="bl">
             <text x="576.4705882352939" y="305.88235294117635">\ding{63}</text>
         </g>
-        <g latexdraw:type="circle" id="id1173492522">
+        <g latexdraw:type="circle" id="id1891671144">
             <circle cx="640.0" cy="300.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1846724541" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id109327183" fill="black" latexdraw:position="bl">
             <text x="628.2352941176466" y="305.8823529411763">$\mathcal{A}2$</text>
         </g>
-        <g latexdraw:type="circle" id="id1001185814">
+        <g latexdraw:type="circle" id="id1918098475">
             <circle cx="517.6470588235293" cy="299.41176470588243"
                 r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1477982489" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id901864462" fill="black" latexdraw:position="bl">
             <text x="505.8823529411759" y="305.2941176470587">$\mathcal{A}1$</text>
         </g>
-        <g latexdraw:type="circle" id="id75025502">
+        <g latexdraw:type="circle" id="id1503620121">
             <circle cx="580.0" cy="500.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id412416506">
+        <g latexdraw:type="circle" id="id1159021881">
             <circle cx="640.0" cy="500.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id1132854601">
+        <g latexdraw:type="circle" id="id1490424901">
             <circle cx="517.6470588235293" cy="499.41176470588243"
                 r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id1312958361">
+        <g latexdraw:type="circle" id="id242007073">
             <circle cx="720.0" cy="340.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id1303101011">
+        <g latexdraw:type="circle" id="id1188984428">
             <circle cx="720.0" cy="380.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id1370780039">
+        <g latexdraw:type="circle" id="id882114415">
             <circle cx="720.0" cy="420.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id598973969">
+        <g latexdraw:type="circle" id="id1055411455">
             <circle cx="720.0" cy="460.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id1891900978">
+        <g latexdraw:type="circle" id="id1682394563">
             <circle cx="440.0" cy="340.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id723430037">
+        <g latexdraw:type="circle" id="id314134036">
             <circle cx="440.0" cy="380.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id184150963">
+        <g latexdraw:type="circle" id="id654218876">
             <circle cx="440.0" cy="420.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="circle" id="id1466213590">
+        <g latexdraw:type="circle" id="id1138520190">
             <circle cx="440.0" cy="460.0" r="19.0"
                 latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id619610827" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1472791771" fill="black" latexdraw:position="bl">
             <text x="572.7855586679109" y="506.59663865546213">$\mathcal{X}$</text>
         </g>
-        <g latexdraw:type="text" id="id1810326825" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1753117458" fill="black" latexdraw:position="bl">
             <text x="635.642701525054" y="505.88235294117635">$\mathcal{D}$</text>
         </g>
-        <g latexdraw:type="text" id="id1301120231" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id1130263689" fill="black" latexdraw:position="bl">
             <text x="513.3569872393398" y="505.88235294117635">$\mathcal{S}$</text>
         </g>
-        <g latexdraw:type="circle" id="id1836562354">
+        <g latexdraw:type="circle" id="id44528911">
             <circle cx="439.07563025210084" cy="293.69747899159665"
                 r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id752743219" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id124844364" fill="black" latexdraw:position="bl">
             <text x="431.92841581076823" y="300.8823529411759">$\mathcal{C}2$</text>
         </g>
-        <g latexdraw:type="circle" id="id2093423421">
+        <g latexdraw:type="circle" id="id1053223840">
             <circle cx="717.6470588235293" cy="296.5546218487393"
                 r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1918664835" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id310183714" fill="black" latexdraw:position="bl">
             <text x="712.642701525054" y="303.02521008403323">$\mathcal{T}$</text>
         </g>
-        <g latexdraw:type="circle" id="id914776838">
+        <g latexdraw:type="circle" id="id468677926">
             <circle cx="691.9327731092435" cy="529.4117647058824"
                 r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
                 stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id1246165411" fill="black" latexdraw:position="bl">
+        <g latexdraw:type="text" id="id640176917" fill="black" latexdraw:position="bl">
             <text x="684.0712729536251" y="533.7394957983186">$\mathcal{C}1$</text>
+        </g>
+        <g latexdraw:type="circle" id="id1175340211">
+            <circle cx="547.6470588235288" cy="173.69747899159688"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1894403715">
+            <circle cx="609.7899159663857" cy="174.41176470588243"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1845309495">
+            <circle cx="547.6470588235293" cy="345.126050420168"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1436946224" fill="black" latexdraw:position="bl">
+            <text x="539.7855586679109" y="351.5966386554617">\twonotes2</text>
+        </g>
+        <g latexdraw:type="circle" id="id1373561147">
+            <circle cx="609.7899159663862" cy="345.84033613445354"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id419995700" fill="black" latexdraw:position="bl">
+            <text x="599.7855586679109" y="353.73949579831856">\twonotes2</text>
+        </g>
+        <g latexdraw:type="text" id="id1462134290" fill="black" latexdraw:position="bl">
+            <text x="539.0712729536247" y="180.16806722689034">\twonotes1</text>
+        </g>
+        <g latexdraw:type="text" id="id333043878" fill="black" latexdraw:position="bl">
+            <text x="601.9284158107678" y="181.59663865546167">\twonotes1</text>
         </g>
     </g>
     <defs/>
     <metadata>
         <latexdraw:metadata>
-            <latexdraw:latexIncludes>
+            <latexdraw:latexIncludes>\usepackage{wasysym}
 \usepackage{ pifont}</latexdraw:latexIncludes>
             <latexdraw:displayXScale>true</latexdraw:displayXScale>
             <latexdraw:displayYScale>true</latexdraw:displayYScale>
