@@ -4,6 +4,7 @@
 
 \RequirePackage[margin=2.5cm,top=2cm,bottom=2cm]{geometry}
 \RequirePackage{graphicx}
+\RequirePackage{newtxmath}
 \RequirePackage{amsmath}
 % \RequirePackage[T1]{fontenc}
 \RequirePackage{times}
@@ -29,7 +30,6 @@
 \RequirePackage{pdfpages}
 \RequirePackage{wasysym}
 \RequirePackage{tikzsymbols}
-
 
 \newsavebox{\imagebox}
 
