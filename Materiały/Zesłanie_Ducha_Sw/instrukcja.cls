@@ -58,6 +58,7 @@
 \newcommand{\spiew}{\twonotes}
 \newcommand{\paschal}{\Candle[1.3]}
 \newcommand{\kolatki}{{\Large\bell}}
+\newcommand{\krzyz}{\textcolor{red}{\raisebox{-1mm}{\scalebox{1.5}{\ding{64}}}}}
 
 \newcommand{\chapter}[1]{
 	\setcounter{section}{0}
