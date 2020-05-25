@@ -4,7 +4,7 @@
 \usepackage{polski}
 % \usepackage[T1]{fontenc}
 % \usepackage[utf8]{luainputenc}
-\usepackage[twoside, a5paper,top=1.5cm, bottom=1.5cm, left = 1.0cm, right=1.0cm, bindingoffset=0.5cm]{geometry}
+\usepackage[twoside, a5paper,top=1.5cm, bottom=1.5cm, left = 1cm, right=1cm, bindingoffset=0.5cm]{geometry}
 %\usepackage{amsmath}
 \usepackage{bm}
 \usepackage{graphicx}
@@ -42,6 +42,10 @@
 \usepackage{fancyhdr}
 \usepackage{enumitem}
 \usepackage{pgfornament}
+\usepackage[autocompile]{gregoriotex}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
 
 \renewcommand{\footrulewidth}{1pt}
 
@@ -111,9 +115,7 @@
 
 
 	\bfseries\scshape
-	\huge WIGILIA \\ ZESŁANIA DUCHA ŚWIĘTEGO \\\medskip
-	\Large oraz \\\medskip
-	\huge MSZA ŚWIĘTA \\ W DZIEŃ PIĘĆDZIESIĄTNICY \\\bigskip
+	\huge WIGILIA \\ ZESŁANIA DUCHA ŚWIĘTEGO \\\bigskip
 	\large WEDŁUG KSIĄG LITURGICZNYCH SPRZED 1955 r.
 
 	\vfill
@@ -889,9 +891,9 @@ narodzonego i umęczonego? \\
 obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie i żywot wieczny? \\
 \rr Wierzę.\\
 
-\vv \nn, czego żądasz? \\
-\rr Chrztu.\\
-\vv \nn, czy chcesz być ochrzczony?\\
+\vv \nn, o co prosisz? \\
+\rr O chrzest.\\
+\vv Czy chcesz być ochrzczony?\\
 \rr Chcę.\\
 
 
@@ -942,75 +944,42 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 \rubric{Kapłan intonuje Hymn do Ducha Świętego}
 
 \oremuss{
-	Veni Creator Spiritus,\\
-	Mentes tuorum visita,\\
-	Imple superna gratia,\\
-	Qu\ae  tu creasti pectora.\\
-
-	Qui diceris Paraclitus,\\
-	Altissimi donum Dei,\\
-	Fons vivus, ignis, caritas,\\
-	Et spiritalis unctio.\\
-
-	Tu septiformis munere,\\
-	Digitus patern\ae  dexter\ae ,\\
-	Tu rite promissum Patris,\\
-	Sermone ditans guttura.\\
-
-	Accende lumen sensibus:\\
-	Infunde amorem cordibus:\\
-	Infirma nostri corporis\\
-	Virtute firmans perpeti.\\
-
-	Hostem repellas longius,\\
-	Pacemque dones protinus:\\
-	Ductore sic te pr\ae vio\\
-	Vitemus omne noxium.\\
-
-	Per te sciamus da Patrem,\\
-	Noscamus atque Filium,\\
-	Teque utriusque Spiritum\\
-	Credamus omni tempore.\\
-
-	Deo Patri sit gloria,\\
-	Et Filio, qui a mortuis\\
-	Surrexit, ac Paraclito,\\
-	In s\ae culorum s\ae cula.\\
-	Amen.}{
-	O Stworzycielu Duchu przyjdź,\\
+	1. O Stworzycielu Duchu przyjdź,\\
 	Nawiedź dusz wiernych Tobie krąg,\\
 	Niebieską łaskę zesłać racz,\\
 	Sercom, co dziełem są Twych rąk.\\
 
-	Pocieszycielem jesteś zwan,\\
+	2. Pocieszycielem jesteś zwan,\\
 	I Najwyższego Boga dar,\\
 	Tyś namaszczeniem naszych dusz,\\
 	Zdrój żywy, miłość, ognia żar.\\
 
-	Ty darzysz łaską siedmiokroć.\\
+	3. Ty darzysz łaską siedmiokroć.\\
 	Bo moc prawicy Ojca masz,\\
 	Przez Ojca obiecany nam,\\
-	Mową wzbogacasz język nasz.\\
+	Mową wzbogacasz język nasz.\\}{
 
-	Światłem rozjaśnij naszą myśl,\\
+	4.Światłem rozjaśnij naszą myśl,\\
 	W serca nam miłość świętą wlej,\\
 	I wątłą słabość naszych ciał,\\
 	Pokrzep stałością mocy Swej.\\
 
-	Nieprzyjaciela odpędź w dal,\\
+	5. Nieprzyjaciela odpędź w dal,\\
 	I Twym pokojem obdarz wraz,\\
 	Niech w drodze za przewodem Twym,\\
 	Miniemy zło co kusi nas.\\
 
-	Daj nam przez Ciebie Ojca znać,\\
+	6. Daj nam przez Ciebie Ojca znać,\\
 	Daj, by i Syn poznany był,\\
 	I Ciebie jedno Tchnienie Dwóch,\\
-	Niech wyznajemy z wszystkich sił.\\
+	Niech wyznajemy z wszystkich sił.\\}
 
-	Niech Bogu Ojcu chwała brzmi,\\
+\begin{center}
+	7. Niech Bogu Ojcu chwała brzmi,\\
 	Synowi, który zmartwychwstał,\\
 	I Temu co pociesza nas,\\
-	Niech hołd wieczystych płynie chwał — Amen.}
+	Niech hołd wieczystych płynie chwał — Amen.
+\end{center}
 
 \rubric{Biskup lub kapłan wchodzi z asystą do bocznej kaplicy lub podchodzi do
 	bocznego ołtarza w pobliżu baptysterium. Do ołtarza podchodzą przystępujący
@@ -1135,17 +1104,17 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	Ecce sic benedicetur omnis homo, qui timet Dominum.}{
 	Oto tak błogosławiony bedzie każdy człowiek bojący się Pana.}
 
+\newpage
+
 \oremus{Błogosławieństwo bierzmowanych}{Bene \ding{64} dicat vos Dominus ex
 	Sion, ut videatis bona Jerusalem omnibus diebus vit\ae  vestr\ae , et
 	habeatis vitam \ae ternam. \\ \\ \rr Amen.}{Niech was błogo \ding{64} sławi
 	Pan z Syjonu, abyście oglądali dobra Jeruzalem po wszystkie dni życia
 	waszego i mieli życie wieczne. \\ \rr Amen.}
 
-\vfill
+\vspace*{1em}
 
 \centerline{\pgfornament[width=4cm]{82}}
-
-\vfill
 
 \subsection{LITANIA DO WSZYSTKICH ŚWIĘTYCH}
 
@@ -1156,27 +1125,42 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	chóru. W drugiej części Litanii kapłan z usługującymi wstają i udają się do
 	zakrystii. W tym czasie zapala się świece i przygotowuje ołtarz do Mszy św.}
 
+\rubric{Ochrzczeni i bierzmowani podążają za światłem paschału -- Chrystusa
+	Zmartwychwstałego -- do nawy kościoła i zajmują miejsce pośród wspólnoty
+	wiernych. Już za chwilę będą mogli z całym Kościołem zaśpiewać wspólne
+	"Alleluja" i przyjąć Komunię Świętą.}
+
+% \vspace*{2cm}
+% \newpage
+
+\gregorioscore{Melody/kyrie.gabc}
+\vspace*{1em}
+
 \oremuss{\vv Kýrie eléison. \rrr Kýrie eléison. \\
-	\vv Christe eléison.
-	\rrr Christe eléison. \\
-	\vv Kýrie eléison.
-	\rrr Kýrie eléison.\\
-	\vv Pater de cǽlis, Deus. \rrr Miserére nobis.\\
+	\vv Christe eléison. \rrr Christe eléison. \\
+	\vv Kýrie eléison. \rrr Kýrie eléison.\\}{
+	\vv Kyrie, eleison. \rrr Kyrie, eleison.\\
+	\vv Christe, eleison. \rrr Christe, eleison. \\
+	\vv Kyrie, eleison. \rrr Kyrie, eleison.\\}
+
+\gregorioscore{Melody/misserere.gabc}
+\vspace*{1em}
+
+\oremuss{\vv Pater de cǽlis, Deus. \rrr Miserére nobis.\\
 	\vv Fili Redémptor mundi, Deus. \rrr Miserére nobis.\\
 	\vv Spíritus Sancte, Deus. \rrr Miserére nobis.\\
-	\vv Sancta Trínitas, unus Deus. \rrr Miserére nobis.}{\vv Kyrie, eleison.
-	\rrr Kyrie, eleison.\\
-	\vv Christe, eleison.
-	\rrr Christe, eleison. \\
-	\vv Kyrie, eleison.
-	\rrr Kyrie, eleison.\\
+	\vv Sancta Trínitas, unus Deus. \rrr Miserére nobis. \\}{
 	\vv Ojcze z nieba, Boże. \rrr Zmiłuj się nad nami.\\
 	\vv Synu, Odkupicielu świata, Boże. \rrr Zmiłuj się nad nami.\\
 	\vv Duchu Święty, Boże. \rrr Zmiłuj się nad nami.\\
-	\vv Święta Trójco, jedyny Boże. \rrr Zmiłuj się nad nami.
+	\vv Święta Trójco, jedyny Boże. \rrr Zmiłuj się nad nami.\\
 }
 
-\oremuss{\vv Sancta María. \rrr Ora pro nobis.\\
+\gregorioscore{Melody/ora.gabc}
+\vspace*{1em}
+
+\oremuss{
+	\vv Sancta María. \rrr Ora pro nobis.\\
 	\vv Sancta Dei Génetrix. \rrr Ora pro nobis.\\
 	\vv Sancta Virgo vírginum. \rrr Ora pro nobis.\\
 	\vv Sancte Míchaël. \rrr Ora pro nobis.\\
@@ -1186,7 +1170,34 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Omnes sancti beatórum Spirítuum órdines. \rrr Oráte pro nobis.\\
 	\vv Sancte Ioánnes Baptísta. \rrr Ora pro nobis.\\
 	\vv Sancte Ioseph. \rrr Ora pro nobis.\\
-	\vv Omnes sancte Patriárchæ et Prophétæ. \rrr Oráte pro nobis.}{
+	\vv Omnes sancte Patriárchæ et Prophétæ. \rrr Oráte pro nobis. \\
+	\vv Sancte Petre. \rrr Ora pro nobis.\\
+	\vv Sancte Paule. \rrr Ora pro nobis.\\
+	\vv Sancte Andréa. \rrr Ora pro nobis.\\
+	\vv Sancte Ioánnes. \rrr Ora pro nobis.\\
+	\vv Omnes sancti Apóstoli et Evangelístæ. \\\rrr Oráte pro nobis.\\
+	\vv Omnes sancti Discípuli Dómini. \rrr Oráte pro nobis.\\
+	\vv Sancte Stéphane. \rrr Ora pro nobis.\\
+	\vv Sancte Laurénti. \rrr Ora pro nobis.\\
+	\vv Sancte Vincénti. \rrr Ora pro nobis.\\
+	\vv Omnes sancti Mártyres. \rrr Oráte pro nobis. \\
+	\vv Sancte Silvéster. \rrr Ora pro nobis.\\
+	\vv Sancte Gregóri. \rrr Ora pro nobis.\\
+	\vv Sancte Augustíne. \rrr Ora pro nobis.\\
+	\vv Omnes sancti Pontífices et Confessóres. \rrr Oráte pro nobis.\\
+	\vv Omnes sancti Doctóres. \rrr Oráte pro nobis.\\
+	\vv Sancte Antóni. \rrr Ora pro nobis.\\
+	\vv Sancte Benedícte. \rrr Ora pro nobis.\\
+	\vv Sancte Domínice. \rrr Ora pro nobis.\\
+	\vv Sancte Francísce. \rrr Ora pro nobis.\\
+	\vv Omnes sancti Sacerdótes et Levítæ. \rrr Oráte pro nobis.\\
+	\vv Omnes sancti Mónachi et Eremítæ. \rrr Oráte pro nobis.\\
+	\vv Sancta María Magdaléna. \rrr Ora pro nobis.\\
+	\vv Sancta Agnes. \rrr Ora pro nobis.\\
+	\vv Sancta Cæcília. \rrr Ora pro nobis.\\
+	\vv Sancta Agatha. \rrr Ora pro nobis.\\
+	\vv Sancta Anastásia. \rrr Ora pro nobis.\\
+	\vv Omnes sanctæ Vírgines et Víduæ. \rrr Oráte pro nobis.\\}{
 	\vv Święta Maryjo. \rrr Módl się za nami.\\
 	\vv Święta Boża Rodzicielko. \rrr Módl się za nami.\\
 	\vv Święta Panno nad pannami. \rrr Módl się za nami.\\
@@ -1197,18 +1208,7 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Wszystkie święte niebieskie Duchy. \\ \rrr Módlcie się za nami.\\
 	\vv Święty Janie Chrzcicielu. \rrr Módl się za nami.\\
 	\vv Święty Józefie. \rrr Módl się za nami.\\
-	\vv Wszyscy święci Patriarchowie i Prorocy. \rrr Módlcie się za nami.}
-\vspace*{-0.2cm}
-\oremuss{\vv Sancte Petre. \rrr Ora pro nobis.\\
-	\vv Sancte Paule. \rrr Ora pro nobis.\\
-	\vv Sancte Andréa. \rrr Ora pro nobis.\\
-	\vv Sancte Ioánnes. \rrr Ora pro nobis.\\
-	\vv Omnes sancti Apóstoli et Evangelístæ. \\\rrr Oráte pro nobis.\\
-	\vv Omnes sancti Discípuli Dómini. \rrr Oráte pro nobis.\\
-	\vv Sancte Stéphane. \rrr Ora pro nobis.\\
-	\vv Sancte Laurénti. \rrr Ora pro nobis.\\
-	\vv Sancte Vincénti. \rrr Ora pro nobis.\\
-	\vv Omnes sancti Mártyres. \rrr Oráte pro nobis.}{
+	\vv Wszyscy święci Patriarchowie i Prorocy. \rrr Módlcie się za nami. \\
 	\vv Święty Piotrze. \rrr Módl się za nami.\\
 	\vv Święty Pawle. \rrr Módl się za nami.\\
 	\vv Święty Andrzeju. \rrr Módl się za nami.\\
@@ -1218,18 +1218,7 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Święty Szczepanie. \rrr Módl się za nami\\
 	\vv Święty Wawrzyńcze. \rrr Módl się za nami\\
 	\vv Święty Wincenty. \rrr Módl się za nami.\\
-	\vv Wszyscy święci Męczennicy. \rrr Módlcie się za nami}
-%
-\oremuss{\vspace*{-2pt}
-	\vv Sancte Silvéster. \rrr Ora pro nobis.\\
-	\vv Sancte Gregóri. \rrr Ora pro nobis.\\
-	\vv Sancte Augustíne. \rrr Ora pro nobis.\\
-	\vv Omnes sancti Pontífices et Confessóres. \rrr Oráte pro nobis.\\
-	\vv Omnes sancti Doctóres. \rrr Oráte pro nobis.\\
-	\vv Sancte Antóni. \rrr Ora pro nobis.\\
-	\vv Sancte Benedícte. \rrr Ora pro nobis.\\
-	\vv Sancte Domínice. \rrr Ora pro nobis.\\
-	\vv Sancte Francísce. \rrr Ora pro nobis.}{\vspace*{-2pt}
+	\vv Wszyscy święci Męczennicy. \rrr Módlcie się za nami \\
 	\vv Święty Sylwestrze. \rrr Módl się za nami\\
 	\vv Święty Grzegorzu. \rrr Módl się za nami.\\
 	\vv Święty Augustynie. \rrr Módl się za nami\\
@@ -1238,18 +1227,7 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Święty Antoni. \rrr Módl się za nami.\\
 	\vv Święty Benedykcie. \rrr Módl się za nami\\
 	\vv Święty Dominiku. \rrr Módl się za nami.\\
-	\vv Święty Franciszku. \rrr Módl się za nami}
-
-\oremuss{
-	\vv Omnes sancti Sacerdótes et Levítæ. \rrr Oráte pro nobis.\\
-	\vv Omnes sancti Mónachi et Eremítæ. \rrr Oráte pro nobis.\\
-	\vv Sancta María Magdaléna. \rrr Ora pro nobis.\\
-	\vv Sancta Agnes. \rrr Ora pro nobis.\\
-	\vv Sancta Cæcília. \rrr Ora pro nobis.\\
-	\vv Sancta Agatha. \rrr Ora pro nobis.\\
-	\vv Sancta Anastásia. \rrr Ora pro nobis.\\
-	\vv Omnes sanctæ Vírgines et Víduæ. \rrr Oráte pro nobis.\\
-	\vv Omnes Sancti et Sanctæ Dei. \rrr Intercédite pro nobis.}{
+	\vv Święty Franciszku. \rrr Módl się za nami\\
 	\vv Wszyscy święci Kapłani i Lewici. \rrr Módlcie się za nami.\\
 	\vv Wszyscy święci Zakonnicy i Pustelnicy. \rrr Módlcie się za nami.\\
 	\vv Święta Mario Magdaleno. \rrr Módl się za nami.\\
@@ -1257,10 +1235,13 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Święta Cecylio. \rrr Módl się za nami.\\
 	\vv Święta Agato. \rrr Módl się za nami.\\
 	\vv Święta Anastazjo. \rrr Módl się za nami\\
-	\vv Wszystkie święte Dziewice i Wdowy. \rrr Módlcie się za nami.\\
-	\vv Wszyscy Święci i Święte Boże. \rrr Przyczyńcie się za nami.}
+	\vv Wszystkie święte Dziewice i Wdowy. \rrr Módlcie się za nami.\\}
+
+\gregorioscore{Melody/libera.gabc}
+\vspace*{1em}
 
 \oremuss{
+	\vv Omnes Sancti et Sanctæ Dei. \rrr Intercédite pro nobis.\\
 	\vv Propítius esto. \rrr Parce nobis, Dómine.\\
 	\vv Propítius esto. \rrr Exaudi nos, Dómine.\\
 	\vv Ab omni malo. \rrr Líbera nos, Dómine.\\
@@ -1268,7 +1249,15 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv A morte perpétua. \rrr Líbera nos, Dómine.\\
 	\vv Per mystérium sanctæ Incarnatiónis tuæ. \rrr Líbera nos, Dómine.\\
 	\vv Per advéntum tuum. \rrr Líbera nos, Dómine.\\
-	\vv Per nativitátem tuum. \rrr Líbera nos, Dómine.}{
+	\vv Per nativitátem tuum. \rrr Líbera nos, Dómine.\\
+	\vv Per baptísmum et sanctum ieiúnium tuum. \rrr Líbera nos, Dómine.\\
+	\vv Per crucem et passiónem tuam. \rrr Líbera nos, Dómine.\\
+	\vv Per mortem et sepultúram tuam. \rrr Líbera nos, Dómine.\\
+	\vv Per sanctam resurrectiónem tuam. \rrr Líbera nos, Dómine.\\
+	\vv Per admirábilem ascensiónem tuam.\\ \rrr Líbera nos, Dómine.\\
+	\vv Per advéntum Spíritus Sancti Parácliti.\\ \rrr Líbera nos, Dómine.\\
+	\vv In die iudícii. \rrr Líbera nos, Dómine.\\}{
+	\vv Wszyscy Święci i Święte Boże. \rrr Przyczyńcie się za nami.\\
 	\vv Bądź nam miłościw. \rrr Przepuść nam, Panie.\\
 	\vv Bądź nam miłościw. \rrr Wysłuchaj nas, Panie.\\
 	\vv Od zła wszelkiego. \rrr Wybaw nas, Panie.\\
@@ -1276,24 +1265,18 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Od śmierci wiecznej. \rrr Wybaw nas, Panie.\\
 	\vv Przez tajemnicę świętego Wcielenia Twego. \rrr Wybaw nas, Panie.\\
 	\vv Przez przyjście Twoje. \rrr Wybaw nas, Panie.\\
-	\vv Przez narodzenie Twoje. \rrr Wybaw nas, Panie.}
-
-\oremuss{
-	\vv Per baptísmum et sanctum ieiúnium tuum. \rrr Líbera nos, Dómine.\\
-	\vv Per crucem et passiónem tuam. \rrr Líbera nos, Dómine.\\
-	\vv Per mortem et sepultúram tuam. \rrr Líbera nos, Dómine.\\
-	\vv Per sanctam resurrectiónem tuam. \rrr Líbera nos, Dómine.\\
-	\vv Per admirábilem ascensiónem tuam.\\ \rrr Líbera nos, Dómine.\\
-	\vv Per advéntum Spíritus Sancti Parácliti.\\ \rrr Líbera nos, Dómine.\\
-	\vv In die iudícii. \rrr Líbera nos, Dómine.}{
+	\vv Przez narodzenie Twoje. \rrr Wybaw nas, Panie.\\
 	\vv Przez Chrzest i święty Post Twój.\\ \rrr Wybaw nas, Panie.\\
 	\vv Przez Krzyż i Mękę Twoją. \rrr Wybaw nas, Panie.\\
 	\vv Przez Śmierć i Pogrzeb Twój. \rrr Wybaw nas, Panie.\\
 	\vv Przez święte Zmartwychwstanie Twoje. \rrr Wybaw nas, Panie.\\
 	\vv Przez cudowne Wniebowstąpienie Twoje. \rrr Wybaw nas, Panie.\\
 	\vv Przez Przyjście Ducha Świętego Pocieszyciela. \rrr Wybaw nas, Panie.\\
-	\vv W dzień sądu. \rrr Wybaw nas, Panie.}
-\vspace*{-2pt}
+	\vv W dzień sądu. \rrr Wybaw nas, Panie.\\}
+
+\gregorioscore{Melody/terogamus.gabc}
+\vspace*{1em}
+
 \oremuss{\vv Peccatóres. \rrr Te rogámus, audi nos.\\
 	\vv Ut nobis parcas. \rrr Te rogámus, audi nos.\\
 	\vv Ut Ecclésiam tuam sanctam régere et conserváre dignéris. \rrr Te
@@ -1305,7 +1288,15 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Ut régibus et princípibus christiánis, pacem et veram concórdiam donáre
 	dignéris. \rrr Te rogámus, audi nos.\\
 	\vv Ut nosmetípsos in tuo sancto servítio confortáre et conserváre
-	dignéris. \rrr Te rogámus, audi nos.}{\vv My grzeszni. \rrr Ciebie prosimy,
+	dignéris. \rrr Te rogámus, audi nos.\\
+	\vv Ut ómnibus benefactóribus nostris sempitérna bona retríbuas. \\ \rrr Te
+	rogámus, audi nos\\
+	\vv Ut fructus terræ dare et conserváre dignéris. \rrr Te rogámus, audi
+	nos.\\
+	\vv Ut ómnibus fidélibus defúnctis réquiem ætérnam donáre dignéris. \rrr Te
+	rogámus, audi nos.\\
+	\vv Ut nos exaudíre dignéris. \rrr Te rogámus, audi nos.\\}{
+	\vv My grzeszni. \rrr Ciebie prosimy,
 	wysłuchaj nas.\\
 	\vv Abyś nam grzechy odpuścić raczył. \rrr Ciebie prosimy, wysłuchaj nas.\\
 	\vv Abyś Kościołem Swym świętym rządził i zachować go raczył. \rrr Ciebie
@@ -1315,40 +1306,41 @@ wszystkimi Świętymi w przybytku niebieskim i żył (-a) na wieki wieków.\\
 	\vv Abyś nieprzyjaciół Kościoła świętego upokorzyć raczył. \rrr Ciebie
 	prosimy, wysłuchaj nas.\\
 	\vv Abyś panującym i rządom chrześcijańskim pokój i zgodę prawdziwą dać
-	raczył. \rrr Ciebie prosimy, wysłuchaj nas.\\
+	raczył.\\ \rrr Ciebie prosimy, wysłuchaj nas.\\
 	\vv Abyś nas samych w służbie Swej świętej utwierdzić i zachować raczył.
-	\rrr Ciebie prosimy, wysłuchaj nas.}
-
-\oremuss{
-	\vv Ut ómnibus benefactóribus nostris sempitérna bona retríbuas. \\ \rrr Te
-	rogámus, audi nos\\
-	\vv Ut fructus terræ dare et conserváre dignéris. \rrr Te rogámus, audi
-	nos.\\
-	\vv Ut ómnibus fidélibus defúnctis réquiem ætérnam donáre dignéris. \rrr Te
-	rogámus, audi nos.\\
-	\vv Ut nos exaudíre dignéris. \rrr Te rogámus, audi nos.\\
-	\vv Agnus Dei, qui tollis peccáta mundi. \\ \rrr Parce nobis, Dómine.\\
-	\vv Agnus Dei, qui tollis peccáta mundi. \\ \rrr Exaudi nos, Dómine.\\
-	\vv Agnus Dei, qui tollis peccáta mundi. \\ \rrr Miserére nobis.\\
-	\vv Christe, audi nos. \rrr Christe, exáudi nos.}{\vv Abyś wszystkim
+	\rrr Ciebie prosimy, wysłuchaj nas.\\
+	\vv Abyś wszystkim
 	dobrodziejom naszym uczynność ich wiekuistą zapłatą nagrodzić
 	raczył. \rrr Ciebie prosimy, wysłuchaj nas.\\
 	\vv Abyś urodzaje ziemskie dać i zachować raczył. \rrr Ciebie prosimy,
 	wysłuchaj nas.\\
 	\vv Abyś wszystkim wiernym zmarłym wieczny odpoczynek dać
 	raczył. \rrr Ciebie prosimy, wysłuchaj nas.\\
-	\vv Abyś nas wysłuchać raczył. \rrr Ciebie prosimy, wysłuchaj nas.\\
+	\vv Abyś nas wysłuchać raczył. \rrr Ciebie prosimy, wysłuchaj nas.\\}
+
+\hspace*{-0.015\linewidth}
+\begin{minipage}{1.03\linewidth}
+	\gregorioscore{Melody/agnus.gabc}
+\end{minipage}
+
+\vspace*{1em}
+
+\oremuss{
+	\vv Agnus Dei, qui tollis peccáta mundi. \\ \rrr Parce nobis, Dómine.\\
+	\vv Agnus Dei, qui tollis peccáta mundi. \\ \rrr Exaudi nos, Dómine.\\
+	\vv Agnus Dei, qui tollis peccáta mundi. \\ \rrr Miserére nobis.\\
+	\vv Christe, audi nos. \rrr Christe, exáudi nos.}{
 	\vv Baranku Boży, który gładzisz grzechy świata. \rrr Przepuść nam, Panie.\\
 	\vv Baranku Boży, który gładzisz grzechy świata. \rrr Wysłuchaj nas,
 	Panie.\\
 	\vv Baranku Boży, który gładzisz grzechy świata. \rrr Zmiłuj się nad nami.\\
 	\vv Chryste, usłysz nas. \rrr Chryste, wysłuchaj nas.}
 
-\vfill
+% \vfill
 
-\centerline{\pgfornament[width=5cm]{82}}
+% \centerline{\pgfornament[width=5cm]{82}}
 
-\vfill
+% \vfill
 
 \newpage
 
@@ -1649,244 +1641,244 @@ Wierzymy żeś Ducha zesłał, Żywoteś nas naprawił; \\
 
 % \vfill
 
-\newpage
+% \newpage
 
-\fancyhead[CE,CO]{NIEDZIELA PIĘĆDZIESIĄTNICY}
+% \fancyhead[CE,CO]{NIEDZIELA PIĘĆDZIESIĄTNICY}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\linewidth]{2.jpg}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=\linewidth]{2.jpg}
+% \end{figure}
 
-\section{NIEDZIELA PIĘĆDZIESIĄTNICY}
- {\station{Stacja u św. Piotra}}
+% \section{NIEDZIELA PIĘĆDZIESIĄTNICY}
+%  {\station{Stacja u św. Piotra}}
 
-\rubric{W dzień Pięćdziesiątnicy około godziny dziewiątej przed południem Duch
-	Święty zstąpił pod postacią wichru i ognia na uczniów zgromadzonych w
-	wieczerniku. Msza świąteczna odprawiana w porze przedpołudniowej jest
-	uroczystym obchodem rocznicy tego wydarzenia. Świadomi swojej słabości
-	prosimy Ducha Świętego aby umocnił to, czego dokonały w nas sakramenty
-	Chrztu i Bierzmowania i nieustannie obdarzał nas swoimi natchnieniami.}
+% \rubric{W dzień Pięćdziesiątnicy około godziny dziewiątej przed południem Duch
+% 	Święty zstąpił pod postacią wichru i ognia na uczniów zgromadzonych w
+% 	wieczerniku. Msza świąteczna odprawiana w porze przedpołudniowej jest
+% 	uroczystym obchodem rocznicy tego wydarzenia. Świadomi swojej słabości
+% 	prosimy Ducha Świętego aby umocnił to, czego dokonały w nas sakramenty
+% 	Chrztu i Bierzmowania i nieustannie obdarzał nas swoimi natchnieniami.}
 
-\oremus{Introit (Mdr 1:7, Ps 67:2)}{Spíritus Dómini replévit orbem terrárum,
-	allelúia: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúia,
-	allelúia, allelúia.\\
-	\vv Exsúrgat Deus, et dissipéntur inimíci eius: et fúgiant, qui odérunt eum,
-	a fácie eius.\\}{Duch Pański napełnił okrąg ziemi, alleluja: A Ten, który
-	wszystko obejmuje, zna każde słowo, alleluja, alleluja, alleluja.\\ \\
-	\vv Bóg wstaje, a rozpraszają się Jego wrogowie i pierzchają przed Jego
-	obliczem ci, którzy Go nienawidzą.}
+% \oremus{Introit (Mdr 1:7, Ps 67:2)}{Spíritus Dómini replévit orbem terrárum,
+% 	allelúia: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúia,
+% 	allelúia, allelúia.\\
+% 	\vv Exsúrgat Deus, et dissipéntur inimíci eius: et fúgiant, qui odérunt eum,
+% 	a fácie eius.\\}{Duch Pański napełnił okrąg ziemi, alleluja: A Ten, który
+% 	wszystko obejmuje, zna każde słowo, alleluja, alleluja, alleluja.\\ \\
+% 	\vv Bóg wstaje, a rozpraszają się Jego wrogowie i pierzchają przed Jego
+% 	obliczem ci, którzy Go nienawidzą.}
 
-\newpage
+% \newpage
 
-\oremus{Kolekta}{Deus, qui hodiérna die corda fidélium Sancti Spíritus
-	illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de eius
-	semper consolatióne gaudére.}{Boże, któryś w dniu dzisiejszym pouczył serca
-	wiernych światłem Ducha Świętego, daj nam w tymże Duchu poznać co jest prawe
-	i pociechą Jego zawsze się radować.}
+% \oremus{Kolekta}{Deus, qui hodiérna die corda fidélium Sancti Spíritus
+% 	illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de eius
+% 	semper consolatióne gaudére.}{Boże, któryś w dniu dzisiejszym pouczył serca
+% 	wiernych światłem Ducha Świętego, daj nam w tymże Duchu poznać co jest prawe
+% 	i pociechą Jego zawsze się radować.}
 
-\proroctwoo{{Epistoła (Dz 2,1--11)}}{Wszyscy zostali napełnieni Duchem Świętym}
+% \proroctwoo{{Epistoła (Dz 2,1--11)}}{Wszyscy zostali napełnieni Duchem Świętym}
 
-\rubric{Dar języków jest potwierdzeniem powszechnej misji Kościoła. Wszystkie
-	narody są wezwane do słuchania Dobrej Nowiny.}
+% \rubric{Dar języków jest potwierdzeniem powszechnej misji Kościoła. Wszystkie
+% 	narody są wezwane do słuchania Dobrej Nowiny.}
 
-\oremuss{Cum compleréntur dies Pentecóstes, erant omnes discípuli pariter in
-	eódem loco: et factus est repéente de c\oe lo sonus, tamquam adveniéntis
-	spíritus veheméntis: et replévit totam domum, ubi erant sedentes. Et
-	apparuérunt illis dispertítæ linguæ tamquam ignis, sedítque supra síngulos
-	eórum: et repléti sunt omnes Spíritu Sancto, et c\oe pérunt loqui váriis
-	linguis, prout Spíritus Sanctus dabat éloqui illis. Erant autem in Ierúsalem
-	habitántes Iud\ae i, viri religiósi ex omni natióne, quæ sub c\oe lo est.
-	Facta autem hac voce, convénit multitúdo, et mente confúsa est, quóniam
-	audiébat unusquísque lingua sua illos loquéntes. Stupébant autem omnes et
-	mirabántur, dicéntes: Nonne ecce omnes isti, qui loquúntur, Galil\ae i sunt?
-	Et quómodo nos audívimus unusquísque linguam nostram, in qua nati sumus?
-	Parthi et Medi et Ælamítæ et qui hábitant Mesopotámiam, Iud\ae am et
-	Cappadóciam, Pontum et Asiam, Phrýgiam et Pamphýliam, Ægýptum et partes
-	Líbyæ, quæ est circa Cyrénen, et ádvenæ Románi, Iud\ae i quoque et
-	Prosélyti, Cretes et Arabes: audívimus eos loquéntes nostris linguis
-	magnália Dei.}{Kiedy nadszedł dzień Pięćdziesiątnicy, znajdowali się wszyscy
-	razem na tym samym miejscu. Nagle spadł z nieba szum, jakby uderzenie
-	gwałtownego wiatru, i napełnił cały dom, w którym przebywali. Ukazały się im
-	też języki jakby z ognia, które się rozdzieliły, i na każdym z nich spoczął
-	jeden. I wszyscy zostali napełnieni Duchem Świętym, i zaczęli mówić obcymi
-	językami, tak jak im Duch pozwalał mówić. Przebywali wtedy w Jerozolimie
-	pobożni Żydzi ze wszystkich narodów pod słońcem. Kiedy więc powstał ów szum,
-	zbiegli się tłumnie i zdumieli, bo każdy słyszał, jak przemawiali w jego
-	własnym języku. Pełni zdumienia i podziwu mówili: ”Czyż ci wszyscy, którzy
-	przemawiają, nie są Galilejczykami? Jakżeż więc każdy z nas słyszy swój
-	własny język ojczysty? – Partowie i Medowie, i Elamici, i mieszkańcy
-	Mezopotamii, Judei oraz Kapadocji, Pontu i Azji, Frygii oraz Pamfilii,
-	Egiptu i tych części Libii, które leżą blisko Cyreny, i przybysze z Rzymu,
-	Żydzi oraz prozelici, Kreteńczycy i Arabowie – słyszymy ich głoszących w
-	naszych językach wielkie dzieła Boże”. }
+% \oremuss{Cum compleréntur dies Pentecóstes, erant omnes discípuli pariter in
+% 	eódem loco: et factus est repéente de c\oe lo sonus, tamquam adveniéntis
+% 	spíritus veheméntis: et replévit totam domum, ubi erant sedentes. Et
+% 	apparuérunt illis dispertítæ linguæ tamquam ignis, sedítque supra síngulos
+% 	eórum: et repléti sunt omnes Spíritu Sancto, et c\oe pérunt loqui váriis
+% 	linguis, prout Spíritus Sanctus dabat éloqui illis. Erant autem in Ierúsalem
+% 	habitántes Iud\ae i, viri religiósi ex omni natióne, quæ sub c\oe lo est.
+% 	Facta autem hac voce, convénit multitúdo, et mente confúsa est, quóniam
+% 	audiébat unusquísque lingua sua illos loquéntes. Stupébant autem omnes et
+% 	mirabántur, dicéntes: Nonne ecce omnes isti, qui loquúntur, Galil\ae i sunt?
+% 	Et quómodo nos audívimus unusquísque linguam nostram, in qua nati sumus?
+% 	Parthi et Medi et Ælamítæ et qui hábitant Mesopotámiam, Iud\ae am et
+% 	Cappadóciam, Pontum et Asiam, Phrýgiam et Pamphýliam, Ægýptum et partes
+% 	Líbyæ, quæ est circa Cyrénen, et ádvenæ Románi, Iud\ae i quoque et
+% 	Prosélyti, Cretes et Arabes: audívimus eos loquéntes nostris linguis
+% 	magnália Dei.}{Kiedy nadszedł dzień Pięćdziesiątnicy, znajdowali się wszyscy
+% 	razem na tym samym miejscu. Nagle spadł z nieba szum, jakby uderzenie
+% 	gwałtownego wiatru, i napełnił cały dom, w którym przebywali. Ukazały się im
+% 	też języki jakby z ognia, które się rozdzieliły, i na każdym z nich spoczął
+% 	jeden. I wszyscy zostali napełnieni Duchem Świętym, i zaczęli mówić obcymi
+% 	językami, tak jak im Duch pozwalał mówić. Przebywali wtedy w Jerozolimie
+% 	pobożni Żydzi ze wszystkich narodów pod słońcem. Kiedy więc powstał ów szum,
+% 	zbiegli się tłumnie i zdumieli, bo każdy słyszał, jak przemawiali w jego
+% 	własnym języku. Pełni zdumienia i podziwu mówili: ”Czyż ci wszyscy, którzy
+% 	przemawiają, nie są Galilejczykami? Jakżeż więc każdy z nas słyszy swój
+% 	własny język ojczysty? – Partowie i Medowie, i Elamici, i mieszkańcy
+% 	Mezopotamii, Judei oraz Kapadocji, Pontu i Azji, Frygii oraz Pamfilii,
+% 	Egiptu i tych części Libii, które leżą blisko Cyreny, i przybysze z Rzymu,
+% 	Żydzi oraz prozelici, Kreteńczycy i Arabowie – słyszymy ich głoszących w
+% 	naszych językach wielkie dzieła Boże”. }
 
-\newpage
+% \newpage
 
-\proroctwo{Alleluja(Ps 103:30)}
+% \proroctwo{Alleluja(Ps 103:30)}
 
-\rubric{Na słowa \textit{Veni Sancte Spiritus} przyklęka sie.}
+% \rubric{Na słowa \textit{Veni Sancte Spiritus} przyklęka sie.}
 
-\oremuss{Allelúia, allelúia\\
-	Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúia\\
-	\vv Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis
-	ignem accénde.}{Alleluja, alleluja\\
-	Ześlij Ducha Twojego, a powstanie życie i odnowisz oblicze ziemi, alleluja.
-	\\
-	\vv Przyjdź, Duchu Święty, napełnij serca Twych wiernych i zapal w nich
-	ogień Twojej miłości.}
+% \oremuss{Allelúia, allelúia\\
+% 	Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúia\\
+% 	\vv Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis
+% 	ignem accénde.}{Alleluja, alleluja\\
+% 	Ześlij Ducha Twojego, a powstanie życie i odnowisz oblicze ziemi, alleluja.
+% 	\\
+% 	\vv Przyjdź, Duchu Święty, napełnij serca Twych wiernych i zapal w nich
+% 	ogień Twojej miłości.}
 
-\proroctwo{Sekwencja}
+% \proroctwo{Sekwencja}
 
-\rubric{Błagalna sekwencja w poetyckiej formie opisuje działanie Ducha Świętego
-	w duszach wiernych.}
+% \rubric{Błagalna sekwencja w poetyckiej formie opisuje działanie Ducha Świętego
+% 	w duszach wiernych.}
 
-\oremuss{
-	Veni, Sancte Spíritus, \\
-	et emítte c\ae litus \\
-	lucis tuæ rádium.\\
+% \oremuss{
+% 	Veni, Sancte Spíritus, \\
+% 	et emítte c\ae litus \\
+% 	lucis tuæ rádium.\\
 
-	Veni, pater páuperum; \\
-	veni, dator múnerum; \\
-	veni, lumen córdium.\\
+% 	Veni, pater páuperum; \\
+% 	veni, dator múnerum; \\
+% 	veni, lumen córdium.\\
 
-	Consolátor óptime, \\
-	dulcis hospes ánimæ, \\
-	dulce refrigérium.\\
+% 	Consolátor óptime, \\
+% 	dulcis hospes ánimæ, \\
+% 	dulce refrigérium.\\
 
-	In labóre réquies, \\
-	in æstu tempéries, \\
-	in fletu solácium.\\
+% 	In labóre réquies, \\
+% 	in æstu tempéries, \\
+% 	in fletu solácium.\\
 
-	O lux beatíssima, \\
-	reple cordis íntima \\
-	tuórum fidélium.\\
+% 	O lux beatíssima, \\
+% 	reple cordis íntima \\
+% 	tuórum fidélium.\\
 
-	Sine tuo númine \\
-	nihil est in hómine, \\
-	nihil est innóxium.\\
+% 	Sine tuo númine \\
+% 	nihil est in hómine, \\
+% 	nihil est innóxium.\\
 
-	Lava quod est sórdidum, \\
-	riga quod est áridum, \\
-	sana quod est sáucium.
+% 	Lava quod est sórdidum, \\
+% 	riga quod est áridum, \\
+% 	sana quod est sáucium.
 
-	Flecte quod est rígidum, \\
-	fove quod est frígidum, \\
-	rege quod est dévium.\\
+% 	Flecte quod est rígidum, \\
+% 	fove quod est frígidum, \\
+% 	rege quod est dévium.\\
 
-	Da tuis fidélibus, \\
-	in te confidéntibus, \\
-	sacrum septenárium.\\
+% 	Da tuis fidélibus, \\
+% 	in te confidéntibus, \\
+% 	sacrum septenárium.\\
 
-	Da virtútis méritum, \\
-	da salútis éxitum, \\
-	da perénne gáudium. \\
-	Amen. Allelúia.}{
-	Przybądź, Duchu Święty,\\
-	Spuść z niebiosów wzięty \\
-	Światła Twego strumień. \\
+% 	Da virtútis méritum, \\
+% 	da salútis éxitum, \\
+% 	da perénne gáudium. \\
+% 	Amen. Allelúia.}{
+% 	Przybądź, Duchu Święty,\\
+% 	Spuść z niebiosów wzięty \\
+% 	Światła Twego strumień. \\
 
-	Przyjdź, Ojcze ubogich,\\
-	Przyjdź, Dawco łask drogich, \\
-	Przyjdź, światłości sumień. \\
+% 	Przyjdź, Ojcze ubogich,\\
+% 	Przyjdź, Dawco łask drogich, \\
+% 	Przyjdź, światłości sumień. \\
 
-	O najmilszy z gości, \\
-	Słodka serc radości, \\
-	Słodkie orzeźwienie!\\
+% 	O najmilszy z gości, \\
+% 	Słodka serc radości, \\
+% 	Słodkie orzeźwienie!\\
 
-	W pracy Tyś ochłodą, \\
-	W skwarze żywą wodą, \\
-	W płaczu utulenie.\\
+% 	W pracy Tyś ochłodą, \\
+% 	W skwarze żywą wodą, \\
+% 	W płaczu utulenie.\\
 
-	Światłości najświętsza, \\
-	Serc wierzących wnętrza \\
-	Poddaj Twej potędze. \\
+% 	Światłości najświętsza, \\
+% 	Serc wierzących wnętrza \\
+% 	Poddaj Twej potędze. \\
 
-	Bez Twojego tchnienia \\
-	Cóż jest wśród stworzenia, \\
-	Jeno cierń i nędze. \\
+% 	Bez Twojego tchnienia \\
+% 	Cóż jest wśród stworzenia, \\
+% 	Jeno cierń i nędze. \\
 
-	Obmyj, co nieświęte, \\
-	Oschłym wlej zachętę, \\
-	Ulecz serca ranę.
+% 	Obmyj, co nieświęte, \\
+% 	Oschłym wlej zachętę, \\
+% 	Ulecz serca ranę.
 
-	Nagnij, co jest harde, \\
-	Rozgrzej serca twarde, \\
-	Prowadź zabłąkane. \\
+% 	Nagnij, co jest harde, \\
+% 	Rozgrzej serca twarde, \\
+% 	Prowadź zabłąkane. \\
 
-	Daj Twoim wierzącym,\\
-	W Tobie ufającym \\
-	Siedmiorakie dary. \\
+% 	Daj Twoim wierzącym,\\
+% 	W Tobie ufającym \\
+% 	Siedmiorakie dary. \\
 
-	Daj zasługę męstwa,\\
-	Daj wieniec zwycięstwa,\\
-	Daj szczęście bez miary.\\
-	Amen. Alleluja.}
+% 	Daj zasługę męstwa,\\
+% 	Daj wieniec zwycięstwa,\\
+% 	Daj szczęście bez miary.\\
+% 	Amen. Alleluja.}
 
-\proroctwoo{Ewangelia (J 14, 23--31)}{Zapowiedź Ducha Pocieszyciela}
+% \proroctwoo{Ewangelia (J 14, 23--31)}{Zapowiedź Ducha Pocieszyciela}
 
-\oremuss{In illo témpore: Dixit Iesus discípulis suis: Si quis díligit me,
-	sermónem meum servábit, et Pater meus díliget eum, et ad eum veniémus et
-	mansiónem apud eum faciémus: qui non díligit me, sermónes meos non servat.
-	Et sermónem quem audístis, non est meus: sed eius, qui misit me, Patris. Hæc
-	locútus sum vobis, apud vos manens. Paráclitus autem Spíritus Sanctus, quem
-	mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia,
-	quæcúmque díxero vobis. Pacem relínquo vobis, pacem meam do vobis: non
-	quómodo mundus dat, ego do vobis. Non turbátur cor vestrum neque formídet.
-	Audístis, quia ego dixi vobis: Vado et vénio ad vos. Si diligere tis me,
-	gaudere tis utique, quia vado ad Patrem: quia Pater maior me est. Et nunc
-	dixi vobis, priúsquam fiat: ut, cum factum fúerit, credátis. Iam non multa
-	loquar vobíscum. Venit enim princeps mundi huius, et in me non habet
-	quidquam. Sed ut cognóscat mundus, quia díligo Patrem, et sicut mandátum
-	dedit mihi Pater, sic fácio.}{\vspace*{-3pt} W owym czasie rzekł Jezus swoim
-	uczniom: Kto ma przykazania moje i zachowuje je, ten Mnie miłuje. Kto zaś
-	Mnie miłuje, ten będzie umiłowany przez Ojca mego, a również Ja będę go
-	miłował i objawię mu siebie».  Rzekł do Niego Juda, ale nie Iskariota:
-	«Panie, cóż się stało, że nam się masz objawić, a nie światu?» W odpowiedzi
-	rzekł do niego Jezus: «Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,
-	a Ojciec mój umiłuje go, i przyjdziemy do niego, i będziemy u niego
-	przebywać. Kto Mnie nie miłuje, ten nie zachowuje słów moich. A nauka, którą
-	słyszycie, nie jest moja, ale Tego, który Mnie posłał, Ojca. To wam
-	powiedziałem przebywając wśród was. A Pocieszyciel, Duch Święty, którego
-	Ojciec pośle w moim imieniu, On was wszystkiego nauczy i przypomni wam
-	wszystko, co Ja wam powiedziałem.  Pokój zostawiam wam, pokój mój daję wam.
-	Nie tak jak daje świat, Ja wam daję. Niech się nie trwoży serce wasze ani
-	się lęka!  Słyszeliście, że wam powiedziałem: Odchodzę i przyjdę znów do
-	was. Gdybyście Mnie miłowali, rozradowalibyście się, że idę do Ojca, bo
-	Ojciec większy jest ode Mnie. A teraz powiedziałem wam o tym, zanim to
-	nastąpi, abyście uwierzyli, gdy się to stanie. Już nie będę z wami wiele
-	mówił, nadchodzi bowiem władca tego świata Nie ma on jednak nic swego we
-	Mnie. Ale niech świat się dowie, że Ja miłuję Ojca, i że tak czynię, jak Mi
-	Ojciec nakazał.}
+% \oremuss{In illo témpore: Dixit Iesus discípulis suis: Si quis díligit me,
+% 	sermónem meum servábit, et Pater meus díliget eum, et ad eum veniémus et
+% 	mansiónem apud eum faciémus: qui non díligit me, sermónes meos non servat.
+% 	Et sermónem quem audístis, non est meus: sed eius, qui misit me, Patris. Hæc
+% 	locútus sum vobis, apud vos manens. Paráclitus autem Spíritus Sanctus, quem
+% 	mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia,
+% 	quæcúmque díxero vobis. Pacem relínquo vobis, pacem meam do vobis: non
+% 	quómodo mundus dat, ego do vobis. Non turbátur cor vestrum neque formídet.
+% 	Audístis, quia ego dixi vobis: Vado et vénio ad vos. Si diligere tis me,
+% 	gaudere tis utique, quia vado ad Patrem: quia Pater maior me est. Et nunc
+% 	dixi vobis, priúsquam fiat: ut, cum factum fúerit, credátis. Iam non multa
+% 	loquar vobíscum. Venit enim princeps mundi huius, et in me non habet
+% 	quidquam. Sed ut cognóscat mundus, quia díligo Patrem, et sicut mandátum
+% 	dedit mihi Pater, sic fácio.}{\vspace*{-3pt} W owym czasie rzekł Jezus swoim
+% 	uczniom: Kto ma przykazania moje i zachowuje je, ten Mnie miłuje. Kto zaś
+% 	Mnie miłuje, ten będzie umiłowany przez Ojca mego, a również Ja będę go
+% 	miłował i objawię mu siebie».  Rzekł do Niego Juda, ale nie Iskariota:
+% 	«Panie, cóż się stało, że nam się masz objawić, a nie światu?» W odpowiedzi
+% 	rzekł do niego Jezus: «Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,
+% 	a Ojciec mój umiłuje go, i przyjdziemy do niego, i będziemy u niego
+% 	przebywać. Kto Mnie nie miłuje, ten nie zachowuje słów moich. A nauka, którą
+% 	słyszycie, nie jest moja, ale Tego, który Mnie posłał, Ojca. To wam
+% 	powiedziałem przebywając wśród was. A Pocieszyciel, Duch Święty, którego
+% 	Ojciec pośle w moim imieniu, On was wszystkiego nauczy i przypomni wam
+% 	wszystko, co Ja wam powiedziałem.  Pokój zostawiam wam, pokój mój daję wam.
+% 	Nie tak jak daje świat, Ja wam daję. Niech się nie trwoży serce wasze ani
+% 	się lęka!  Słyszeliście, że wam powiedziałem: Odchodzę i przyjdę znów do
+% 	was. Gdybyście Mnie miłowali, rozradowalibyście się, że idę do Ojca, bo
+% 	Ojciec większy jest ode Mnie. A teraz powiedziałem wam o tym, zanim to
+% 	nastąpi, abyście uwierzyli, gdy się to stanie. Już nie będę z wami wiele
+% 	mówił, nadchodzi bowiem władca tego świata Nie ma on jednak nic swego we
+% 	Mnie. Ale niech świat się dowie, że Ja miłuję Ojca, i że tak czynię, jak Mi
+% 	Ojciec nakazał.}
 
-\oremus{Offertorium (Ps 67:29--30)}{Confírma hoc, Deus, quod operátus es in
-	nobis: a templo tuo, quod est in Ierúsalem, tibi ófferent reges múnera,
-	allelúia}{Utwierdź to, Boże, czegoś w nas dokonał. Przez wzgląd na Twoją
-	świątynię, która jest w Jeruzalem, niech królowie złożą Ci dary, alleluja.}
+% \oremus{Offertorium (Ps 67:29--30)}{Confírma hoc, Deus, quod operátus es in
+% 	nobis: a templo tuo, quod est in Ierúsalem, tibi ófferent reges múnera,
+% 	allelúia}{Utwierdź to, Boże, czegoś w nas dokonał. Przez wzgląd na Twoją
+% 	świątynię, która jest w Jeruzalem, niech królowie złożą Ci dary, alleluja.}
 
-\oremus{Sekreta}{Múnera, qu\ae sumus, Dómine, obláta sanctífica: et corda nostra
-	Sancti Spíritus illustratióne emúnda.}{Prosimy Cię, Panie, uświęć złożone
-	dary i oczyść nasze serca światłem Ducha Świętego.}
+% \oremus{Sekreta}{Múnera, qu\ae sumus, Dómine, obláta sanctífica: et corda nostra
+% 	Sancti Spíritus illustratióne emúnda.}{Prosimy Cię, Panie, uświęć złożone
+% 	dary i oczyść nasze serca światłem Ducha Świętego.}
 
-\rubric{Prefacja o Duchu Świętym. W Kanonie odmawia się własne modlitwy, tak jak
-	podczas Wigilii.}
+% \rubric{Prefacja o Duchu Świętym. W Kanonie odmawia się własne modlitwy, tak jak
+% 	podczas Wigilii.}
 
-\oremus{Communio (Dz 2:2; 2:4)}{Factus est repénte de c\oe lo sonus, tamquam
-	adveniéntis spíritus veheméntis, ubi erant sedéntes, allelúia: et repléti
-	sunt omnes Spíritu Sancto, loquéntes magnália Dei, allelúia,
-	allelúia.}{Nagle dał się słyszeć z nieba szum jakby nadchodzącego wichru
-	gwałtownego tam gdzie przebywali, alleluja. I wszyscy zostali napełnieni
-	Duchem Świętym i mówili o wielkich sprawach Bożych, alleluja, alleluja.}
+% \oremus{Communio (Dz 2:2; 2:4)}{Factus est repénte de c\oe lo sonus, tamquam
+% 	adveniéntis spíritus veheméntis, ubi erant sedéntes, allelúia: et repléti
+% 	sunt omnes Spíritu Sancto, loquéntes magnália Dei, allelúia,
+% 	allelúia.}{Nagle dał się słyszeć z nieba szum jakby nadchodzącego wichru
+% 	gwałtownego tam gdzie przebywali, alleluja. I wszyscy zostali napełnieni
+% 	Duchem Świętym i mówili o wielkich sprawach Bożych, alleluja, alleluja.}
 
-\oremus{Modlitwa po Komunii}{Sancti Spíritus, Dómine, corda nostra mundet
-	infúsio: et sui roris íntima aspersióne fecúndet.}{Panie, niech tchnienie
-	Ducha Świętego oczyści nasze serca, i użyźni je rosą Jego łaski.}
+% \oremus{Modlitwa po Komunii}{Sancti Spíritus, Dómine, corda nostra mundet
+% 	infúsio: et sui roris íntima aspersióne fecúndet.}{Panie, niech tchnienie
+% 	Ducha Świętego oczyści nasze serca, i użyźni je rosą Jego łaski.}
 
-\vfill
+% \vfill
 
-\centerline{\pgfornament[width=7cm]{82}}
+% \centerline{\pgfornament[width=7cm]{82}}
 
-\vfill
+% \vfill
 
 
 \end{document}
