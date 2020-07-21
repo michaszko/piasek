@@ -1,9 +1,10 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{instrukcja}[2011/03/26 My custom instruction class]
-\LoadClass{article}
+\LoadClass{book}
 
 \RequirePackage[margin=2.5cm,top=2cm,bottom=2cm]{geometry}
 \RequirePackage{graphicx}
+\RequirePackage{titlesec}
 \RequirePackage{amsmath}
 % \RequirePackage[T1]{fontenc}
 \RequirePackage{times}
@@ -17,7 +18,7 @@
 \RequirePackage[bottom]{footmisc}
 \RequirePackage{sectsty}
 \RequirePackage[normalem]{ulem}
-\RequirePackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{libertinus-otf}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
@@ -29,7 +30,14 @@
 \RequirePackage{pdfpages}
 \RequirePackage{wasysym}
 \RequirePackage{tikzsymbols}
+\RequirePackage{titletoc}
+\RequirePackage{fancyhdr}
 
+\fancypagestyle{plain}{%
+\fancyhf{}% clears all header and footer fields
+\fancyfoot[C]{\thepage}%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}}
 
 \newsavebox{\imagebox}
 
@@ -59,13 +67,18 @@
 \newcommand{\paschal}{\Candle[1.3]}
 \newcommand{\kolatki}{{\Large\bell}}
 
-\newcommand{\chapter}[1]{
-	\setcounter{section}{0}
-	\begin{center}
-		\hrulefill \\
-		{\Huge\bfseries\scshape #1 \\}
-		\hrulefill
-	\end{center}}
+% \newcommand{\chapter}[1]{
+% 	\setcounter{section}{0}
+% 	\begin{center}
+% 		\hrulefill \\
+% 		{\Huge\bfseries\scshape #1 \\}
+% 		\hrulefill
+% 	\end{center}}
+
+\definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+
+\titleformat{\chapter}
+   {\Huge\bfseries\scshape}{\color{bostonuniversityred}\thechapter.}{1em}{}
 
 \newcommand{\opis}[1]{
 	\begin{center}

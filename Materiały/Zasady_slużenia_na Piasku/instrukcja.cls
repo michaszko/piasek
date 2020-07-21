@@ -5,7 +5,7 @@
 \RequirePackage[margin=2cm,top=2cm,bottom=2cm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{amsmath}
-\RequirePackage[T1]{fontenc}
+% \RequirePackage[T1]{fontenc}
 \RequirePackage{times}
 \RequirePackage[polish]{babel}
 \RequirePackage{pifont}
@@ -15,12 +15,15 @@
 \RequirePackage{enumitem}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage[bottom]{footmisc}
-\RequirePackage{sectsty}
+% \RequirePackage{sectsty}
 \RequirePackage[normalem]{ulem}
-\RequirePackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{libertinus-otf}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
+\RequirePackage{titlesec}
+\RequirePackage{titletoc}
+
 
 \newsavebox{\imagebox}
 
@@ -28,7 +31,7 @@
 
 \setlength{\parindent}{0cm}
 
-\allsectionsfont{\textsc}
+% \allsectionsfont{\textsc}
 
 \captionsetup[figure]{labelfont={bf},name={Rys.},labelsep=period}
 
@@ -45,13 +48,18 @@
 \newcommand{\oo}{$\mathcal{O}$}
 \newcommand{\mm}{$\mathcal{M}$}
 
-\newcommand{\chapter}[1]{
-	\setcounter{section}{0}
-	\begin{center}
-		\hrulefill \\
-		{\Huge\bfseries\scshape #1 \\}
-		\hrulefill
-	\end{center}}
+% \newcommand{\chapter}[1]{
+% 	\setcounter{section}{0}
+% 	\begin{center}
+% 		\hrulefill \\
+% 		{\Huge\bfseries\scshape #1 \\}
+% 		\hrulefill
+% 	\end{center}}
+
+\definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+
+\titleformat{\section}
+{\Large\bfseries\scshape}{\color{bostonuniversityred}\thesection}{1em}{}
 
 \newcommand{\opis}[1]{
 	\begin{center}
