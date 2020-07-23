@@ -1,0 +1,120 @@
+%! TeX program = lualatex
+\documentclass[12pt,a4paper]{scrartcl}
+
+\usepackage[margin=0cm]{geometry}
+\usepackage[osf]{libertine}
+\usepackage{lettrine}
+\usepackage[dvipsnames]{xcolor} 
+\usepackage[object=vectorian]{pgfornament}
+\usepackage{ragged2e}
+\usepackage{background}
+\usepackage{pifont}
+
+\usetikzlibrary{calc}
+\definecolor{fondpaille}{cmyk}{0,0,0.1,0}
+\definecolor{calpolypomonagreen}{rgb}{0.12, 0.3, 0.17}
+\definecolor{forestgreen(traditional)}{rgb}{0.0, 0.27, 0.13}
+\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+
+\backgroundsetup{
+scale=1,
+opacity=1,
+angle=0,
+color=darkgreen,
+contents={%
+\begin{tikzpicture}[every node/.style={inner sep=0pt}]
+\node[anchor=north west](CNW)
+at (current page.north west) {\pgfornament[width=4cm]{63}};
+\node[anchor=north east](CNE)
+at (current page.north east) {\pgfornament[width=4cm,symmetry=v]{63}};
+\node[anchor=south west](CSW)
+at (current page.south west) {\pgfornament[width=4cm,symmetry=h]{63}};
+\node[anchor=south east](CSE)
+at (current page.south east) {\pgfornament[width=4cm,symmetry=c]{63}};
+%
+\node[anchor=north, rotate=0](CNW)  at (current page.north)
+{\pgfornament[width=11cm,symmetry=c]{71}}; 
+\node[anchor=south, rotate=0](CNW)  at (current page.south)
+{\pgfornament[width=11cm,symmetry=c]{71}}; 
+%
+\node[shift={(0cm,4.5cm)}, anchor= south east, rotate=270](CSE) at (current page.south west)
+{\pgfornament[width=11cm,symmetry=c]{71}}; 
+\node[shift={(0cm,-4.5cm)}, anchor= south west, rotate=270](CNE) at (current page.north west)
+{\pgfornament[width=11cm,symmetry=c]{71}}; 
+%
+\node[shift={(0cm,4.5cm)}, anchor= south west, rotate=90](CSE) at (current page.south east)
+{\pgfornament[width=11cm,symmetry=c]{71}}; 
+\node[shift={(0cm,-4.5cm)}, anchor= south east, rotate=90](CNE) at (current page.north east)
+{\pgfornament[width=11cm,symmetry=c]{71}};
+    % 
+\end{tikzpicture}%
+  }
+}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\newcommand{\krzyz}{\textcolor{red}{\raisebox{-1mm}{\scalebox{1.5}{\ding{64}}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\pagecolor{fondpaille}
+% \color{Maroon}
+\color{darkgreen}
+
+\begin{center}
+
+    \begin{minipage}{0.7\linewidth}
+
+        \vspace*{2.7cm}
+
+        \begin{center}
+            \scshape\bfseries\Huge
+            Aquam benedicens
+        \end{center}
+
+        \vspace*{0.1cm}
+
+        \LARGE\justify
+
+        \lettrine[lines=3]{\color{Maroon}D}{\bfseries\color{Maroon}eus}
+        \krzyz~qui human\ae~ substanti\ae~ dignitatem mirabiliter condidisti, et
+        mirabilius reformasti: da nobis per hujus aqu\ae~ et vini mysterium,
+        ejus divinitatis esse consortes, qui humanitatis nostrae fieri dignatus
+        est particeps, Jesus Christus Filius tuus Dominus noster: Qui tecum
+        vivit et regnat in unitate Spiritus Sancti Deus: per omnia s\ae cula
+        saeculorum. \textcolor{Maroon}{Amen.}
+
+        \vspace*{0.1cm}
+
+        \begin{center}
+            \scshape\bfseries\Huge
+            Manus lavans
+        \end{center}
+
+        \vspace*{0.1cm}
+
+        \LARGE\justify
+
+        \lettrine[lines=3]{\color{Maroon}L}{\bfseries\color{Maroon}avabo} inter
+        innocentes manus meas: et circumdabo altare tuum, Domine: Ut audiam
+        vocem laudis: et enarrem universa mirabilia tua. Domine, dilexi decorem
+        domus tuae: et locum habitationis gloriae tuae. Ne perdas cum impiis,
+        Deus animam meam: et cum viris sanguinum vitam meam: In quorum manibus
+        iniquitates sunt: dextera eorum repleta est muneribus. Ego autem in
+        innocentia mea ingressus sum: redime me, et miserere mei. Pes meus
+        stetit in directo: in ecclesiis benedicam te, Domine. Gloria Patri, et
+        Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper:
+        et in saecula saeculorum. \textcolor{Maroon}{Amen.}
+    \end{minipage}
+\end{center}
+
+\vspace*{1cm}
+
+\end{document}
