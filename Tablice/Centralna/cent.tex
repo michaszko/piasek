@@ -1,15 +1,16 @@
 %! TeX program = lualatex
-\documentclass[12pt,a3paper, landscape]{scrartcl}
+\documentclass[12pt, landscape]{scrartcl}
 
-\usepackage[margin=0cm]{geometry}
+\usepackage[paperheight=12in,paperwidth=18in,margin=0in,heightrounded,showframe]{geometry}
 \usepackage{graphicx}
 \usepackage[osf]{libertine}
 \usepackage{lettrine}
 \usepackage[dvipsnames]{xcolor} 
 \usepackage[object=vectorian]{pgfornament}
-\usepackage{ragged2e}
+% \usepackage[document]{ragged2e}
 \usepackage{background}
 \usepackage{pifont}
+\usepackage{soul}
 
 \usetikzlibrary{calc}
 \definecolor{fondpaille}{cmyk}{0,0,0.1,0}
@@ -25,38 +26,48 @@ color=darkgreen,
 contents={%
 \begin{tikzpicture}[every node/.style={inner sep=0pt}]
 \node[anchor=north west](CNW)
-at (current page.north west) {\pgfornament[width=4cm]{63}};
+at (current page.north west) {\pgfornament[width=4.5cm]{63}};
 \node[anchor=north east](CNE)
-at (current page.north east) {\pgfornament[width=4cm,symmetry=v]{63}};
+at (current page.north east) {\pgfornament[width=4.5cm,symmetry=v]{63}};
 \node[anchor=south west](CSW)
-at (current page.south west) {\pgfornament[width=4cm,symmetry=h]{63}};
+at (current page.south west) {\pgfornament[width=4.5cm,symmetry=h]{63}};
 \node[anchor=south east](CSE)
-at (current page.south east) {\pgfornament[width=4cm,symmetry=c]{63}};
+at (current page.south east) {\pgfornament[width=4.5cm,symmetry=c]{63}};
 %
-\node[anchor=north, rotate=0](CNW)  at (current page.north)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
-\node[anchor=south, rotate=0](CNW)  at (current page.south)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
+% \node[anchor=north, rotate=0](CNW)  at (current page.north)
+% {\pgfornament[width=10cm,symmetry=c]{71}}; 
+% \node[anchor=south, rotate=0](CNW)  at (current page.south)
+% {\pgfornament[width=10cm,symmetry=c]{71}}; 
 %
-\node[shift={(4.5cm,0cm)},anchor=north west, rotate=0](CNW)  at (current page.north west)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
-\node[shift={(4.5cm,0cm)},anchor=south west, rotate=0](CNW)  at (current page.south west)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
+\node[shift={(5.0cm,0cm)},anchor=north west, rotate=0](CNW)  at (current page.north west)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+\node[shift={(5.0cm,0cm)},anchor=south west, rotate=0](CNW)  at (current page.south west)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
 %
-\node[shift={(-4.5cm,0cm)},anchor=north east, rotate=0](CNW)  at (current page.north east)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
-\node[shift={(-4.5cm,0cm)},anchor=south east, rotate=0](CNW)  at (current page.south east)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
+\node[shift={(-5.0cm,0cm)},anchor=north east, rotate=0](CNW)  at (current page.north east)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+\node[shift={(-5.0cm,0cm)},anchor=south east, rotate=0](CNW)  at (current page.south east)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
 %
-\node[shift={(0cm,4.5cm)}, anchor= south east, rotate=270](CSE) at (current page.south west)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
-\node[shift={(0cm,-4.5cm)}, anchor= south west, rotate=270](CNE) at (current page.north west)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
+\node[shift={(13.5cm,0cm)},anchor=north west, rotate=0](CNW)  at (current page.north west)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+\node[shift={(13.5cm,0cm)},anchor=south west, rotate=0](CNW)  at (current page.south west)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
 %
-\node[shift={(0cm,4.5cm)}, anchor= south west, rotate=90](CSE) at (current page.south east)
-{\pgfornament[width=11cm,symmetry=c]{71}}; 
-\node[shift={(0cm,-4.5cm)}, anchor= south east, rotate=90](CNE) at (current page.north east)
-{\pgfornament[width=11cm,symmetry=c]{71}};
+\node[shift={(-13.5cm,0cm)},anchor=north east, rotate=0](CNW)  at (current page.north east)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+\node[shift={(-13.5cm,0cm)},anchor=south east, rotate=0](CNW)  at (current page.south east)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+%
+\node[shift={(0cm,5.2cm)}, anchor= south east, rotate=270](CSE) at (current page.south west)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+\node[shift={(0cm,-5.2cm)}, anchor= south west, rotate=270](CNE) at (current page.north west)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+%
+\node[shift={(0cm,5.2cm)}, anchor= south west, rotate=90](CSE) at (current page.south east)
+{\pgfornament[width=10cm,symmetry=c]{71}}; 
+\node[shift={(0cm,-5.2cm)}, anchor= south east, rotate=90](CNE) at (current page.north east)
+{\pgfornament[width=10cm,symmetry=c]{71}};
     % 
 \end{tikzpicture}%
   }
@@ -67,10 +78,14 @@ at (current page.south east) {\pgfornament[width=4cm,symmetry=c]{63}};
 \hyphenpenalty=10000
 \hbadness=10000
 
+\setulcolor{Maroon}
+\setlength{\parindent}{0pt}
+
 \newcommand{\krzyz}{\textcolor{red}{\raisebox{-1mm}{\scalebox{1.5}{\ding{64}}}}}
 \newcommand{\amen}{\textcolor{Maroon}{Amen.}}
 \newcommand{\initial}[2]{\lettrine[lines=3]{\color{Maroon}#1}{\bfseries\color{Maroon}#2}}
-\newcommand{\gap}{\vspace*{0.1cm}}
+\newcommand{\gap}{\vspace{0.65cm}}
+\newcommand{\sklon}[1]{\ul{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -86,19 +101,20 @@ at (current page.south east) {\pgfornament[width=4cm,symmetry=c]{63}};
 
 \begin{center}
 
-    \begin{minipage}[t]{0.28\linewidth}
+    \begin{minipage}[t]{0.29\linewidth}
 
         \vspace*{2.2cm}
 
-        \initial{G}{loria} in excelsis Deo. Et in terra pax hominibus bonae
-        voluntatis. Laudamus te. Benedicimus te. Adoramus te. Glorificamus te.
-        Gratias agimus tibi propter magnam gloriam tuam. Domine Deus, Rex
-        caelestis, Deus Pater omnipotens. Domine Fili unigenite, Jesu Christe.
-        Domine Deus, Agnus Dei, Filius Patris. Qui tollis peccata mundi,
-        miserere nobis. Qui tollis peccata mundi, suscipe deprecationem nostram.
-        Qui sedes ad dexteram Patris, miserere nobis. Quoniam tu solus Sanctus.
-        Tu solus Dominus. Tu solus Altissimus, Jesu Christe. Cum Sancto \krzyz~
-        Spiritu in gloria Dei Patris. \amen
+        \initial{G}{loria} in excelsis \sklon{Deo}. Et in terra pax hominibus
+        bonae voluntatis. Laudamus te. Benedicimus te. \sklon{Adoramus te}.
+        Glorificamus te. \sklon{Gratias agimus tibi propter magnam gloriam
+            tuam}. Domine Deus, Rex caelestis, Deus Pater omnipotens. Domine Fili
+        unigenite, \sklon{Jesu Christe}. Domine Deus, Agnus Dei, Filius Patris.
+        Qui tollis peccata mundi, miserere nobis. Qui tollis peccata mundi,
+        \sklon{suscipe deprecationem nostram}. Qui sedes ad dexteram Patris,
+        miserere nobis. Quoniam tu solus Sanctus. Tu solus Dominus. Tu solus
+        Altissimus, \sklon{Jesu Christe}. Cum Sancto \krzyz~ Spiritu in gloria
+        Dei Patris. \amen
 
         \gap
 
@@ -113,6 +129,84 @@ at (current page.south east) {\pgfornament[width=4cm,symmetry=c]{63}};
         labiis meis: ut digne et competenter annuntiem Evangelium suum. \amen
 
         \gap
+
+        \initial{C}{redo} in unum \sklon{Deum}, Patrem omnipotentem, factorem
+        caeli et terrae, visibilium omnium, et invisibilium. Et in unum Dominum
+        \sklon{Jesum Christum}, Filium Dei unigenitum. Et ex Patre natum ante
+        omnia saecula. Deum de Deo, lumen de lumine, Deum verum de Deo vero.
+        Genitum, non factum, consubstantialem Patri: per quem omnia facta sunt.
+        Qui propter nos homines, et propter nostram salutem descendit de caelis.
+        \textcolor{Maroon}{\bfseries\scshape Et incarnatus est de spiritu sancto
+            ex maria virgine: et homo factus est.} Crucifixus etiam pro nobis, sub
+        Pontio Pilato passus, et sepultus est. Et resurrexit tertia die,
+        secundum Scripturas. Et ascendit in caelum: sedet ad dexteram Patris. Et
+        iterum venturus est cum gloria, judicare vivos, et mortuos: cujus regni
+        non erit finis. Et in Spiritum Sanctum, Dominum et vivificantem: qui ex
+        Patre Filioque procedit. Qui cum Patre et Filio \sklon{simul adoratur}
+        et conglorificatur: qui locutus est per Prophetas. Et unam, sanctam,
+        catholicam et apostolicam Ecclesiam. Confiteor unum baptisma in
+        remissionem peccatorum. Et exspecto resurrectionem mortuorum. Et vitam
+        \krzyz~venturi saeculi.
+        \amen
+
+    \end{minipage}
+    \hspace*{0.8cm}
+    \begin{minipage}[t]{0.25\linewidth}
+        %
+        \vspace*{2.2cm}
+        %
+        \begin{center}
+            \includegraphics[width=\linewidth]{cross.jpg}
+        \end{center}
+        %
+        % \vfill
+        %
+        \lettrine[lines=3,depth=1]{\color{Maroon}Q}{\bfseries\color{Maroon}ui}
+        pridie quam pateretur, accepit panem in sanctas ac venerabiles manus
+        suas, et elevatis oculis in caelum ad te Deum Patrem suum omnipotentem,
+        tibi gratias agens, bene\krzyz dixit, fregit, deditque discipulis suis,
+        dicens: Accipite, et manducate ex hoc omnes:\\
+
+        \bigskip
+
+        \centerline{\begin{minipage}{0.75\linewidth}
+                \begin{center}
+                    \Large\color{Maroon}\bfseries\scshape
+                    %
+                    Hoc est enim Corpus meum.
+                \end{center}
+            \end{minipage}}
+
+        \bigskip
+
+        \initial{S}{imili} modo postquam coenatum est, accipiens et hunc
+        praeclarum Calicem in sanctas ac venerabiles manus suas: item tibi
+        gratias agens, bene\krzyz dixit, deditque discipulis suis, dicens:
+        Accipite, et bibite ex eo omnes:\\
+
+        \bigskip
+
+        \centerline{\begin{minipage}{0.75\linewidth}
+                \begin{center}
+                    \Large\color{Maroon}\bfseries\scshape
+                    %
+                    Hic est enim Calix Sanguinis mei, novi et aeterni testamenti:
+                    mysterium fidei: qui pro vobis et pro multis effundetur in
+                    remissionem peccatorum.
+                \end{center}
+            \end{minipage}}
+
+        \bigskip
+
+        \centerline{\begin{minipage}{\linewidth}
+                Haec quotiescumque feceritis, in mei memoriam facietis.
+            \end{minipage}}
+
+    \end{minipage}
+    \hspace*{0.8cm}
+    \begin{minipage}[t]{0.29\linewidth}
+
+        \vspace*{2.2cm}
 
         \initial{S}{uscipe}, sancte Pater, omnipotens aeterne Deus, hanc
         immaculatam hostiam, quam ego indignus famulus tuus offero tibi Deo meo
@@ -137,82 +231,6 @@ at (current page.south east) {\pgfornament[width=4cm,symmetry=c]{63}};
 
         \initial{V}{enite}, Sanctificator omnipotens aeterne Deus, et bene\krzyz
         dic hoc sacrificium, tuo sancto nomini praeparatum.
-
-    \end{minipage}
-    \hspace*{0.2cm}
-    \begin{minipage}[t]{0.28\linewidth}
-
-        \vspace*{2.2cm}
-
-        \begin{center}
-            \includegraphics[width=\linewidth]{cross.jpg}
-        \end{center}
-
-        \vfill
-
-        \lettrine[lines=3,depth=1]{\color{Maroon}Q}{\bfseries\color{Maroon}ui} pridie
-        quam pateretur, accepit panem in sanctas ac venerabiles manus suas, et
-        elevatis oculis in caelum ad te Deum Patrem suum omnipotentem, tibi
-        gratias agens, bene\krzyz dixit, fregit, deditque discipulis suis,
-        dicens: Accipite, et manducate ex hoc omnes:
-
-        \gap
-
-        \begin{center}
-            \Large\color{Maroon}
-
-            \textbf{\textsc{Hoc est enim Corpus meum.}}
-        \end{center}
-
-        \gap
-
-        \initial{S}{imili} modo postquam coenatum est, accipiens et hunc
-        praeclarum Calicem in sanctas ac venerabiles manus suas: item tibi
-        gratias agens, bene\krzyz dixit, deditque discipulis suis, dicens:
-        Accipite, et bibite ex eo omnes:
-
-        \gap
-
-        \begin{center}
-            \Large\color{Maroon}
-
-            \begin{minipage}{0.8\linewidth}
-                \begin{center}
-                    \textbf{\textsc{Hic est enim Calix Sanguinis mei, novi et aeterni
-                            testamenti: mysterium fidei: qui pro vobis et pro multis
-                            effundetur in remissionem peccatorum.}}
-                \end{center}
-            \end{minipage}
-        \end{center}
-
-        \gap
-
-        \hspace*{-2.1em} Haec quotiescumque feceritis, in mei memoriam facietis.
-
-    \end{minipage}
-    \hspace*{0.2cm}
-    \begin{minipage}[t]{0.28\linewidth}
-
-        \vspace*{2.2cm}
-
-        \initial{C}{redo} in unum Deum, Patrem omnipotentem, factorem caeli et
-        terrae, visibilium omnium, et invisibilium. Et in unum Dominum Jesum
-        Christum, Filium Dei unigenitum. Et ex Patre natum ante omnia saecula.
-        Deum de Deo, lumen de lumine, Deum verum de Deo vero. Genitum, non
-        factum, consubstantialem Patri: per quem omnia facta sunt. Qui propter
-        nos homines, et propter nostram salutem descendit de caelis.
-        \textcolor{Maroon}{\textsc{Et incarnatus est de spiritu sancto ex maria
-        virgine: et homo factus est}.}
-        Crucifixus etiam pro nobis, sub Pontio Pilato passus, et sepultus est.
-        Et resurrexit tertia die, secundum Scripturas. Et ascendit in caelum:
-        sedet ad dexteram Patris. Et iterum venturus est cum gloria, judicare
-        vivos, et mortuos: cujus regni non erit finis. Et in Spiritum Sanctum,
-        Dominum et vivificantem: qui ex Patre Filioque procedit. Qui cum Patre
-        et Filio simul adoratur et conglorificatur: qui locutus est per
-        Prophetas. Et unam, sanctam, catholicam et apostolicam Ecclesiam.
-        Confiteor unum baptisma in remissionem peccatorum. Et exspecto
-        resurrectionem mortuorum. \krzyz~ Et vitam venturi saeculi.
-        \amen
 
         \gap
 
