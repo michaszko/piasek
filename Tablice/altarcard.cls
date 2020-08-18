@@ -13,20 +13,22 @@
 \RequirePackage{soul}
 
 \usetikzlibrary{calc}
-\definecolor{fondpaille}{cmyk}{0,0,0.1,0}
-\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\definecolor{fondpaille}{cmyk}{0,0,0.2,0}
+\definecolor{font}{rgb}{0.0, 0.2, 0.13}
+\definecolor{frame}{rgb}{0.8, 0.58, 0.46}
+\definecolor{newred}{rgb}{0.6, 0.0, 0.0}
 
 \DeclareOption{first}
 {\backgroundsetup{
   scale=1,
   opacity=1,
   angle=0,
-  color=darkgreen,
+  color=frame,
   contents={%
   \begin{tikzpicture}[every node/.style={inner sep=0pt}]
       %
-      \pgfmathsetmacro{\cornersize}{1.5in}
-      \pgfmathsetmacro{\edgesize}{3.1in}
+      \pgfmathsetmacro{\cornersize}{1in}
+      \pgfmathsetmacro{\edgesize}{2.5in}
       %
       \pgfmathsetmacro{\widthstart}{-((\textwidth - 2*\cornersize)/\edgesize/2)*(\edgesize/1cm)}
       \pgfmathsetmacro{\widthstep}{\widthstart + (-2*\widthstart - (\edgesize/1cm))/(ceil((-2*\widthstart - (\edgesize/1cm))/(\edgesize/1cm))}
@@ -70,7 +72,7 @@
   scale=1,
   opacity=1,
   angle=0,
-  color=darkgreen,
+  color=frame,
   contents={%
   \begin{tikzpicture}[every node/.style={inner sep=0pt}]
       %
@@ -127,7 +129,7 @@
   scale=1,
   opacity=1,
   angle=0,
-  color=darkgreen,
+  color=frame,
   contents={%
   \begin{tikzpicture}[every node/.style={inner sep=0pt}]
       \pgfmathsetmacro{\cornersize}{6cm}
@@ -190,19 +192,19 @@
 \hbadness=10000
 
 
-\setulcolor{Maroon}           % Color of underline
+\setulcolor{newred}           % Color of underline
 \setlength{\parindent}{0pt}   % No indentation
 
 
-\newcommand{\cross}{\textcolor{red}{\raisebox{-1mm}{\scalebox{1.5}{\ding{64}}}}}
-\newcommand{\amen}{\textcolor{Maroon}{Amen.}}
-\newcommand{\initial}[2]{\lettrine[lines=3]{\color{Maroon}#1}{\bfseries\color{Maroon}#2}}
-\newcommand{\gap}{\vspace{0.3cm}}
+\newcommand{\cross}{\textcolor{newred}{\raisebox{-1mm}{\scalebox{1.5}{\ding{64}}}}}
+\newcommand{\amen}{\textcolor{newred}{Amen.}}
+\newcommand{\initial}[2]{\lettrine[lines=3]{\color{newred}#1}{\bfseries\color{newred}#2}}
+\newcommand{\gap}{\bigskip}
 \newcommand{\bend}[1]{\ul{#1}}
+\newcommand{\topgap}{\vspace*{1.8cm}}
 
 \AtBeginDocument{
   \thispagestyle{empty}
   \pagecolor{fondpaille}
-  % \color{Maroon}
-  \color{darkgreen}
+  \color{font}
   \Large}

@@ -1,5 +1,5 @@
 %! TeX program = lualatex
-\documentclass[third]{../altarcard}
+\documentclass[first]{../altarcard}
 
 \usepackage[paperheight=12in,paperwidth=18in,margin=0in]{geometry}
 
@@ -11,12 +11,12 @@
 
 	\begin{minipage}[t]{0.29\linewidth}
 
-		\vspace*{2.2cm}
+		\topgap
 
-		\initial{\hspace*{2cm}G}{loria} in~excelsis \bend{Deo}. Et~in~terra pax
-		hominibus bonae voluntatis. Laudamus te. Benedicimus te. \bend{Adoramus
-			te}. Glorificamus te. \bend{Gratias agimus tibi} propter magnam gloriam
-		tuam. Domine Deus, Rex caelestis, Deus Pater omnipotens. Domine Fili
+		\initial{G}{loria} in~excelsis \bend{Deo}. Et~in~terra pax hominibus
+		bonae voluntatis. Laudamus te. Benedicimus te. \bend{Adoramus te}.
+		Glorificamus te. \bend{Gratias agimus tibi} propter magnam gloriam tuam.
+		Domine Deus, Rex caelestis, Deus Pater omnipotens. Domine Fili
 		unigenite, \bend{Jesu Christe}. Domine Deus, Agnus Dei, Filius Patris.
 		Qui tollis peccata mundi, miserere nobis. Qui tollis peccata mundi,
 		\bend{suscipe deprecationem nostram}. Qui sedes ad~dexteram Patris,
@@ -44,7 +44,7 @@
 		omnia saecula. Deum de~Deo, lumen de~lumine, Deum verum de~Deo vero.
 		Genitum, non factum, consubstantialem Patri: per quem omnia facta sunt.
 		Qui propter nos homines, et~propter nostram salutem descendit de~caelis.
-		\textcolor{Maroon}{\bfseries\scshape Et~incarnatus est de~spiritu sancto
+		\textcolor{newred}{\bfseries\scshape Et~incarnatus est de~spiritu sancto
 			ex~maria virgine: et~homo factus est.} Crucifixus etiam pro nobis, sub
 		Pontio Pilato passus, et~sepultus est. Et~resurrexit tertia die,
 		secundum Scripturas. Et~ascendit in~caelum: sedet ad~dexteram Patris.
@@ -53,11 +53,8 @@
 		qui ex~Patre Filioque procedit. Qui cum Patre et~Filio \bend{simul
 			adoratur} et~conglorificatur: qui locutus est per Prophetas. Et~unam,
 		sanctam, catholicam et~apostolicam Ecclesiam. Confiteor unum baptisma
-		in~remissionem
-		% 
-		\hspace*{2cm} \parbox{0.85\linewidth}{ \smallskip peccatorum.
-			Et~exspecto resurrectionem mortuorum. Et~vitam \cross~venturi saeculi.
-			\amen}
+		in~remissionem peccatorum. Et~exspecto resurrectionem mortuorum.
+		Et~vitam \cross~venturi saeculi. \amen
 
 		% \vspace*{0.25em}
 		% \hfill
@@ -72,7 +69,7 @@
 	\hspace*{0.8cm}
 	\begin{minipage}[t]{0.25\linewidth}
 		%
-		\vspace*{2.2cm}
+		\topgap
 		%
 		\begin{center}
 			\includegraphics[width=\linewidth]{../Figures/krzyz.png}
@@ -80,34 +77,34 @@
 		%
 		\bigskip
 		%
-		\lettrine[lines=3,depth=1]{\color{Maroon}Q}{\bfseries\color{Maroon}ui}
+		\lettrine[lines=3,depth=1]{\color{newred}Q}{\bfseries\color{newred}ui}
 		pridie quam pateretur, accepit panem in~sanctas ac~venerabiles manus
 		suas, et~elevatis oculis in~caelum ad~te Deum Patrem suum omnipotentem,
 		tibi gratias agens, bene\cross dixit, fregit, deditque discipulis sui
 		dicens: Accipite, et~manducate ex~hoc omnes:\\
 
-		\medskip
+		\bigskip
 
 		\centerline{\begin{minipage}{0.75\linewidth}
 				\begin{center}
-					\Large\color{Maroon}\bfseries\scshape
+					\Large\color{newred}\bfseries\scshape
 					%
 					Hoc est enim Corpus meum.
 				\end{center}
 			\end{minipage}}
 
-		\medskip
+		\bigskip
 
 		\initial{S}{imili} modo postquam coenatum est, accipiens et~hunc
 		praeclarum Calicem in~sanctas ac~venerabiles manus suas: item tibi
 		gratias agens, bene\cross dixit, deditque discipulis suis, dicens:
 		Accipite, et~bibite ex~eo omnes:\\
 
-		\medskip
+		\bigskip
 
 		\centerline{\begin{minipage}{0.75\linewidth}
 				\begin{center}
-					\Large\color{Maroon}\bfseries\scshape
+					\Large\color{newred}\bfseries\scshape
 					%
 					Hic est enim Calix Sanguinis mei, novi et~aeterni
 					testamenti: mysterium fidei: qui pro vobis et~pro multis
@@ -115,7 +112,7 @@
 				\end{center}
 			\end{minipage}}
 
-		\medskip
+		\bigskip
 
 		\centerline{\begin{minipage}{\linewidth}
 				Haec quotiescumque feceritis, in~mei memoriam facietis.
@@ -125,25 +122,21 @@
 	\hspace*{0.8cm}
 	\begin{minipage}[t]{0.29\linewidth}
 
-		\vspace*{2.2cm}
+		\topgap
 
-		% \begin{minipage}{0.85\linewidth}
-		% 	\initial{S}{uscipe}, sancte Pater, omnipotens aeterne Deus, hanc
-		% 	immaculatam hostiam, quam ego indignus famulus tuus offero tibi Deo meo
-		% 	vivo et~vero,
-		% \end{minipage}
-		% \vspace*{0.25em}
+		\initial{P}{laceat} tibi, sancta Trinitas, obsequium servitutis meae: et
+		praesta; ut~sacrificium quod oculis tuae majestatis indignus obtuli,
+		tibi sit acceptabile, mihique, et~omnibus, pro quibus illud obtuli,
+		sit, te miserante, propitiabile. Per~Christum Dominum nostrum. \amen
 
-		\parbox{0.87\linewidth}{\initial{S}{uscipe}, sancte Pater, omnipotens
-			aeterne Deus, hanc immaculatam hostiam, quam ego indignus famulus
-			tuus offero tibi Deo meo vivo et~vero, pro}
+		\gap
 
-		\smallskip
-
-		innumerabilibus peccatis, et~offensionibus, et~negligentiis meis,
-		et~pro omnibus circumstantibus, sed et~pro omnibus fidelibus Christianis
-		vivis atque defunctis: ut~mihi, et~illis proficiat ad~salutem in~vitam
-		aeternam.
+		\initial{S}{uscipe}, sancte Pater, omnipotens aeterne Deus, hanc
+		immaculatam hostiam, quam ego indignus famulus tuus offero tibi Deo
+		meo vivo et~vero, pro innumerabilibus peccatis, et~offensionibus,
+		et~negligentiis meis, et~pro omnibus circumstantibus, sed et~pro
+		omnibus fidelibus Christianis vivis atque defunctis: ut~mihi,
+		et~illis proficiat ad~salutem in~vitam aeternam.
 		\amen
 
 		\gap
@@ -175,10 +168,12 @@
 
 		\gap
 
-		\initial{P}{laceat} tibi, sancta Trinitas, obsequium servitutis meae: et
-		praesta; ut~sacrificium quod oculis tuae majestatis indignus obtuli,
-		tibi sit acceptabile, mihique, et~omnibus, pro quibus illud obtuli, sit,
-		te miserante, propitiabile. Per~Christum Dominum nostrum. \amen
+		\initial{S}{upplices} te rogamus, omnipotens Deus: iube haec perferri
+		per manus sancti Angeli tui in sublime altare tuum, in conspectu divinae
+		maiestatis tuae: ut quotquot, ex hac altaris participatione sacrosanctum
+		Filii tui, Cor\cross pus et San\cross guinem sumpserimus, omni
+		bene\cross dictione caelesti et gratia repleamur. Per eumdem Christum
+		Dominum nostrum. \amen
 
 	\end{minipage}
 \end{center}
