@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{../altarcard}
-\LoadClass{scrartcl}
+\LoadClass[12pt]{scrartcl}
 
 \RequirePackage{graphicx}
 \RequirePackage[osf]{libertine}
@@ -11,6 +11,7 @@
 \RequirePackage{background}
 \RequirePackage{pifont}
 \RequirePackage{soul}
+\RequirePackage{anyfontsize}
 
 \usetikzlibrary{calc}
 \definecolor{fondpaille}{cmyk}{0,0,0.2,0}
@@ -200,11 +201,11 @@
 \newcommand{\amen}{\textcolor{newred}{Amen.}}
 \newcommand{\initial}[2]{\lettrine[lines=3]{\color{newred}#1}{\bfseries\color{newred}#2}}
 \newcommand{\gap}{\bigskip}
+\newcommand{\gapp}{\bigskip\smallskip\smallskip}
 \newcommand{\bend}[1]{\ul{#1}}
 \newcommand{\topgap}{\vspace*{1.8cm}}
 
 \AtBeginDocument{
   \thispagestyle{empty}
   \pagecolor{fondpaille}
-  \color{font}
-  \Large}
+  \color{font}}
