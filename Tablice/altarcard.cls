@@ -29,7 +29,7 @@
   \begin{tikzpicture}[every node/.style={inner sep=0pt}]
       %
       \pgfmathsetmacro{\cornersize}{1in}
-      \pgfmathsetmacro{\edgesize}{2.5in}
+      \pgfmathsetmacro{\edgesize}{2.7in}
       %
       \pgfmathsetmacro{\widthstart}{-((\textwidth - 2*\cornersize)/\edgesize/2)*(\edgesize/1cm)}
       \pgfmathsetmacro{\widthstep}{\widthstart + (-2*\widthstart - (\edgesize/1cm))/(ceil((-2*\widthstart - (\edgesize/1cm))/(\edgesize/1cm))}
@@ -55,7 +55,7 @@
       {\pgfornament[width=\edgesize,symmetry=v]{71}}; 
       % Bottom
       \node[shift={(\x,\lineoff)},anchor=south west](CNW)  at (current page.south)
-      {\pgfornament[width=\edgesize,symmetry=v]{71}};}
+      {\pgfornament[width=\edgesize,symmetry=h]{71}};}
       % Left
       \foreach \x in {\heightstart,\heightstep,...,\heightend}
       {\node[shift={(\lineoff,\x)},anchor=north west, rotate=90](CSW)  at (current page.west)
