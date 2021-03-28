@@ -1,0 +1,348 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="rectangle" id="id598973969">
+            <rect x="467.66666666666697" y="1.0"
+                width="164.66666666666674" height="31.33333333333335"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id723430037">
+            <rect x="267.6666666666668" y="159.33333333333337"
+                width="31.33333333333337" height="241.3333333333336"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id184150963">
+            <rect x="774.3333333333337" y="159.33333333333337"
+                width="31.33333333333337" height="241.3333333333336"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1466213590">
+            <rect x="338.50000000000006" y="162.25000000000003"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1026949748">
+            <polyline
+                points="0.0,100.00000000000003 919.916666666667,100.00000000000003 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id132763240">
+            <rect x="588.5" y="162.25000000000003"
+                width="160.5000000000001" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id303754530">
+            <rect x="338.50000000000006" y="197.25000000000003"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id2120867761">
+            <rect x="588.5" y="197.25000000000003"
+                width="160.5000000000001" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id933839755">
+            <rect x="338.50000000000006" y="232.25000000000003"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1723532982">
+            <rect x="588.5" y="232.25000000000003"
+                width="160.5000000000001" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id393790939">
+            <rect x="338.50000000000006" y="267.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id16997398">
+            <rect x="588.5" y="267.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id971834606">
+            <rect x="338.50000000000006" y="302.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id110972934">
+            <rect x="588.5" y="302.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1841821723">
+            <rect x="338.50000000000006" y="337.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id914806919">
+            <rect x="588.5" y="337.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id987308390">
+            <rect x="272.99999999999994" y="5.0" width="26.0"
+                height="41.99999999999999" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1568590612">
+            <rect x="772.9999999999999" y="9.0" width="30.0"
+                height="37.99999999999999" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id637613263">
+            <polyline
+                points="3.4031599229287086,103.99999999999999 915.4500192678223,103.99999999999999 "
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id857245428">
+            <rect x="264.0" y="420.99999999999994"
+                width="34.99999999999994" height="30.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1317712421">
+            <rect x="774.0" y="415.99999999999994" width="35.0"
+                height="35.00000000000006" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id263552034">
+            <rect x="260.2857142857142" y="450.9999999999999"
+                width="238.71428571428567" height="19.428571428571445"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1734883461">
+            <rect x="590.2857142857141" y="450.9999999999999"
+                width="219.42857142857144" height="19.428571428571445"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1353788113">
+            <rect x="500.9999999999999" y="489.46153846153834"
+                width="99.1538461538463" height="32.61538461538464"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1331675729">
+            <rect x="338.50000000000006" y="582.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1782353290">
+            <rect x="598.5" y="582.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id432593837">
+            <rect x="338.50000000000006" y="622.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id843424479">
+            <rect x="598.5" y="622.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1677243750">
+            <rect x="338.50000000000006" y="662.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id428477375">
+            <rect x="598.5" y="662.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id323369297">
+            <rect x="338.50000000000006" y="702.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1824479265">
+            <rect x="598.5" y="702.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1681965782">
+            <rect x="338.50000000000006" y="747.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1549876743">
+            <rect x="598.5" y="747.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id263545435">
+            <rect x="338.50000000000006" y="787.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1488163988">
+            <rect x="598.5" y="787.25" width="160.5000000000001"
+                height="16.75" latexdraw:borderPos="outer"
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id666294756" fill="black" latexdraw:position="">
+            <text x="553.936170212766" y="504.2553191489362">\large \textbf{NOM}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id851438243">
+            <rect x="38.50000000000006" y="162.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1027539572">
+            <rect x="38.50000000000006" y="202.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id2097477913">
+            <rect x="38.50000000000006" y="242.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id541450263">
+            <rect x="38.50000000000006" y="282.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1432716946">
+            <rect x="38.50000000000006" y="322.25"
+                width="160.50000000000006" height="16.75"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1210291888" fill="black" latexdraw:position="bl">
+            <text x="499.16666666666663" y="21.666666666666664">\large \textbf{NIE NOM}</text>
+        </g>
+        <g latexdraw:type="text" id="id32451384" fill="black" latexdraw:position="bl">
+            <text x="389.16666666666663" y="176.66666666666663">\textbf{Ławka}</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id1848089135" transform="rotate(90.59188816325903) translate(-777.8388974077848 -1109.3831944919025)">
+            <rect x="888.3333333333334" y="153.46153846153788"
+                width="99.1538461538463" height="32.61538461538464"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id764335378" fill="black"
+            latexdraw:position="" transform="rotate(90.59188816325903) translate(-775.9587793726567 -1114.271813035346)">
+            <text x="939.3893855109718" y="173.14393769237938">KAPLCA</text>
+        </g>
+        <g latexdraw:type="rectangle" id="id2141901934" transform="rotate(269.9278301109935) translate(-551.3653495422443 -520.8671759641836)">
+            <rect x="-34.000000000000114" y="519.4615384615383"
+                width="99.1538461538463" height="32.61538461538464"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id1738021869" fill="black"
+            latexdraw:position="" transform="rotate(269.9278301109935) translate(-546.487960673181 -519.0237500394009)">
+            <text x="14.058781343702663" y="532.4118932241533">WEJ\'SCIE</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id660520518">
+            <polyline
+                points="546.6666666666669,53.33333333333335 546.6666666666669,133.33333333333337 "
+                stroke-width="2.0" stroke="red"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-660520518)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id691918704">
+            <polyline
+                points="546.6666666666669,140.00000000000003 880.0000000000002,140.00000000000003 "
+                stroke-width="2.0" stroke="red"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-691918704)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id710300135">
+            <polyline
+                points="880.0000000000002,146.6666666666667 880.0000000000002,873.3333333333336 "
+                stroke-width="2.0" stroke="red"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-710300135)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id2025005093">
+            <polyline
+                points="866.666666666667,873.3333333333336 226.66666666666674,873.3333333333336 "
+                stroke-width="2.0" stroke="red"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-2025005093)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id778334849">
+            <polyline
+                points="226.66666666666674,880.0000000000002 226.66666666666674,913.3333333333336 "
+                stroke-width="2.0" stroke="red"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-778334849)"/>
+        </g>
+    </g>
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow1-660520518">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="red"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-691918704">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="red"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-710300135">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="red"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-2025005093">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="red"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-778334849">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="red"/>
+        </marker>
+    </defs>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:latexIncludes>
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}</latexdraw:latexIncludes>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:unit>CM</latexdraw:unit>
+            <latexdraw:zoom>0.7499999999999998</latexdraw:zoom>
+            <latexdraw:magneticGridStyle>STANDARD</latexdraw:magneticGridStyle>
+            <latexdraw:gridGap>20</latexdraw:gridGap>
+            <latexdraw:magneticGrid>true</latexdraw:magneticGrid>
+            <latexdraw:version>3.3.9</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1867</latexdraw:width>
+                <latexdraw:height>1058</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>53.0</latexdraw:x>
+                <latexdraw:y>22.0</latexdraw:y>
+            </latexdraw:position>
+        </latexdraw:metadata>
+    </metadata>
+</svg>

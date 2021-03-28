@@ -1,0 +1,296 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="rectangle" id="id194100260">
+            <rect x="201.0" y="1.0" width="678.0" height="238.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id821074286">
+            <rect x="261.0" y="1.0" width="558.0" height="198.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1246165411">
+            <rect x="321.0" y="1.0" width="438.0" height="158.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id2069034706">
+            <rect x="361.0" y="1.0" width="358.0" height="78.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id926604720">
+            <circle cx="540.0" cy="100.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="red" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1914684183">
+            <circle cx="300.0" cy="140.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1444929427">
+            <circle cx="780.0" cy="140.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1781556749">
+            <circle cx="480.0" cy="260.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1068725216">
+            <circle cx="600.0" cy="260.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1760182837">
+            <circle cx="480.0" cy="500.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id501570624">
+            <circle cx="480.0" cy="380.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1012683018">
+            <circle cx="600.0" cy="380.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1526185663">
+            <circle cx="480.0" cy="440.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1745623900">
+            <circle cx="600.0" cy="440.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1572627140">
+            <circle cx="480.0" cy="500.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1428225308">
+            <circle cx="600.0" cy="500.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id404080777">
+            <circle cx="480.0" cy="560.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1635931542">
+            <circle cx="600.0" cy="560.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id2020440829">
+            <circle cx="540.0" cy="320.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id1181673467">
+            <path
+                d="M 320.0 140.0 C 320.0 180.0 760.0 180.0 760.0 140.0 "
+                stroke-width="3.0" stroke="#ff00d0" fill="none"
+                stroke-linecap="round"
+                stroke-dasharray="1, 8.291666666666668" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="bezierCurve" id="id1242110263">
+            <path
+                d="M 320.0 120.0 C 320.0 160.0 760.0 160.0 760.0 120.0 "
+                stroke-width="3.0" stroke="#ff00bf" fill="none"
+                stroke-linecap="round"
+                stroke-dasharray="1, 8.291666666666668" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="text" id="id269738424" fill="black" latexdraw:position="">
+            <text x="540.0" y="100.0">$\mathcal{X}$</text>
+        </g>
+        <g latexdraw:type="text" id="id238861378" fill="black" latexdraw:position="">
+            <text x="300.0" y="140.0">$\mathcal{A}2$</text>
+        </g>
+        <g latexdraw:type="text" id="id878007419" fill="black" latexdraw:position="">
+            <text x="780.0" y="140.0">$\mathcal{A}1$</text>
+        </g>
+        <g latexdraw:type="text" id="id851438243" fill="black" latexdraw:position="">
+            <text x="540.0" y="320.0">$\mathcal{C}1$</text>
+        </g>
+        <g latexdraw:type="text" id="id1027539572" fill="black" latexdraw:position="">
+            <text x="480.0" y="380.0">$\mathcal{C}2$</text>
+        </g>
+        <g latexdraw:type="text" id="id2097477913" fill="black" latexdraw:position="">
+            <text x="600.0" y="380.0">$\mathcal{T}$</text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id1210291888">
+            <polyline points="640.0,260.0 680.0,260.0 "
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-1210291888)"/>
+        </g>
+        <g latexdraw:type="text" id="id1848089135" fill="black" latexdraw:position="">
+            <text x="760.0" y="260.0">Klerycy i księża</text>
+        </g>
+        <g latexdraw:type="circle" id="id1384665197">
+            <circle cx="340.0" cy="500.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id913641398">
+            <circle cx="340.0" cy="440.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1387717180">
+            <circle cx="340.0" cy="500.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1126267790">
+            <circle cx="340.0" cy="560.0" r="19.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1185352033">
+            <rect x="360.2819257445941" y="426.8017135862914"
+                width="7.302325581395337" height="25.906976744186068"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="dot" id="id1640027327"
+            latexdraw:size="10.000000000000028" latexdraw:dotShape="*" latexdraw:position="363.9330885352917 421.61566707466375">
+            <path
+                d="M 368.54847315067633 421.61566707466375 C 368.54847315067633 424.1646736123443 366.48209507297224 426.2310516900484 363.9330885352917 426.2310516900484 C 361.3840819976111 426.2310516900484 359.31770391990705 424.1646736123443 359.31770391990705 421.61566707466375 C 359.31770391990705 419.06666053698314 361.3840819976111 417.0002824592791 363.9330885352917 417.0002824592791 C 366.48209507297224 417.0002824592791 368.54847315067633 419.06666053698314 368.54847315067633 421.61566707466375 z "
+                fill="#ffa800" stroke-linecap="square"
+                stroke-linejoin="butt" stroke-width="0.625"
+                stroke-miterlimit="10.0" stroke-dashoffset="0.0" stroke="#ffa800"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id633935845">
+            <rect x="359.40473276213777" y="488.0297837617301"
+                width="7.302325581395337" height="25.906976744186068"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="dot" id="id1922511220"
+            latexdraw:size="10.000000000000028" latexdraw:dotShape="*" latexdraw:position="363.05589555283535 482.84373725010244">
+            <path
+                d="M 367.67128016822 482.84373725010244 C 367.67128016822 485.392743787783 365.6049020905159 487.4591218654871 363.05589555283535 487.4591218654871 C 360.50688901515474 487.4591218654871 358.4405109374507 485.392743787783 358.4405109374507 482.84373725010244 C 358.4405109374507 480.2947307124218 360.50688901515474 478.2283526347178 363.05589555283535 478.2283526347178 C 365.6049020905159 478.2283526347178 367.67128016822 480.2947307124218 367.67128016822 482.84373725010244 z "
+                fill="#ffa800" stroke-linecap="square"
+                stroke-linejoin="butt" stroke-width="0.625"
+                stroke-miterlimit="10.0" stroke-dashoffset="0.0" stroke="#ffa800"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id2034904385">
+            <rect x="359.5801713586292" y="547.152590779274"
+                width="7.302325581395337" height="25.906976744186068"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="dot" id="id1313685667"
+            latexdraw:size="10.000000000000028" latexdraw:dotShape="*" latexdraw:position="363.23133414932676 541.9665442676463">
+            <path
+                d="M 367.8467187647114 541.9665442676463 C 367.8467187647114 544.5155508053269 365.7803406870073 546.581928883031 363.23133414932676 546.581928883031 C 360.68232761164614 546.581928883031 358.6159495339421 544.5155508053269 358.6159495339421 541.9665442676463 C 358.6159495339421 539.4175377299657 360.68232761164614 537.3511596522617 363.23133414932676 537.3511596522617 C 365.7803406870073 537.3511596522617 367.8467187647114 539.4175377299657 367.8467187647114 541.9665442676463 z "
+                fill="#ffa800" stroke-linecap="square"
+                stroke-linejoin="butt" stroke-width="0.625"
+                stroke-miterlimit="10.0" stroke-dashoffset="0.0" stroke="#ffa800"/>
+        </g>
+        <g latexdraw:type="circle" id="id1323372604">
+            <circle cx="738.8372093023254" cy="500.23255813953483"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1216118032">
+            <circle cx="738.8372093023254" cy="440.23255813953483"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id1759634021">
+            <circle cx="738.8372093023254" cy="500.23255813953483"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="circle" id="id2133010002">
+            <circle cx="738.8372093023254" cy="560.2325581395348"
+                r="19.0" latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id250983775">
+            <rect x="711.6772745818033" y="428.42962056303566"
+                width="7.302325581395394" height="25.906976744186068"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="dot" id="id338965426"
+            latexdraw:size="10.000000000000028" latexdraw:dotShape="*" latexdraw:position="715.328437372501 423.243574051408">
+            <path
+                d="M 719.9438219878856 423.243574051408 C 719.9438219878856 425.7925805890886 717.8774439101816 427.85895866679266 715.328437372501 427.85895866679266 C 712.7794308348203 427.85895866679266 710.7130527571163 425.7925805890886 710.7130527571163 423.243574051408 C 710.7130527571163 420.6945675137274 712.7794308348203 418.6281894360234 715.328437372501 418.6281894360234 C 717.8774439101816 418.6281894360234 719.9438219878856 420.6945675137274 719.9438219878856 423.243574051408 z "
+                fill="#ffa800" stroke-linecap="square"
+                stroke-linejoin="butt" stroke-width="0.625"
+                stroke-miterlimit="10.0" stroke-dashoffset="0.0" stroke="#ffa800"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id1608430937">
+            <rect x="710.800081599347" y="489.65769073847434"
+                width="7.302325581395394" height="25.906976744186068"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="dot" id="id1921905645"
+            latexdraw:size="10.000000000000028" latexdraw:dotShape="*" latexdraw:position="714.4512443900446 484.4716442268467">
+            <path
+                d="M 719.0666290054293 484.4716442268467 C 719.0666290054293 487.02065076452726 717.0002509277252 489.08702884223135 714.4512443900446 489.08702884223135 C 711.902237852364 489.08702884223135 709.83585977466 487.02065076452726 709.83585977466 484.4716442268467 C 709.83585977466 481.9226376891661 711.902237852364 479.85625961146206 714.4512443900446 479.85625961146206 C 717.0002509277252 479.85625961146206 719.0666290054293 481.9226376891661 719.0666290054293 484.4716442268467 z "
+                fill="#ffa800" stroke-linecap="square"
+                stroke-linejoin="butt" stroke-width="0.625"
+                stroke-miterlimit="10.0" stroke-dashoffset="0.0" stroke="#ffa800"/>
+        </g>
+        <g latexdraw:type="rectangle" id="id828293991">
+            <rect x="710.9755201958384" y="548.7804977560182"
+                width="7.302325581395394" height="25.906976744186068"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="dot" id="id1686129428"
+            latexdraw:size="10.000000000000028" latexdraw:dotShape="*" latexdraw:position="714.626682986536 543.5944512443906">
+            <path
+                d="M 719.2420676019207 543.5944512443906 C 719.2420676019207 546.1434577820712 717.1756895242166 548.2098358597752 714.626682986536 548.2098358597752 C 712.0776764488554 548.2098358597752 710.0112983711514 546.1434577820712 710.0112983711514 543.5944512443906 C 710.0112983711514 541.04544470671 712.0776764488554 538.979066629006 714.626682986536 538.979066629006 C 717.1756895242166 538.979066629006 719.2420676019207 541.04544470671 719.2420676019207 543.5944512443906 z "
+                fill="#ffa800" stroke-linecap="square"
+                stroke-linejoin="butt" stroke-width="0.625"
+                stroke-miterlimit="10.0" stroke-dashoffset="0.0" stroke="#ffa800"/>
+        </g>
+    </g>
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow1-1210291888">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+    </defs>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:latexIncludes>
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}</latexdraw:latexIncludes>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:unit>CM</latexdraw:unit>
+            <latexdraw:zoom>1.1500000000000001</latexdraw:zoom>
+            <latexdraw:magneticGridStyle>CUSTOMISED</latexdraw:magneticGridStyle>
+            <latexdraw:gridGap>20</latexdraw:gridGap>
+            <latexdraw:magneticGrid>false</latexdraw:magneticGrid>
+            <latexdraw:version>3.3.9</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1867</latexdraw:width>
+                <latexdraw:height>1058</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>53.0</latexdraw:x>
+                <latexdraw:y>24.0</latexdraw:y>
+            </latexdraw:position>
+        </latexdraw:metadata>
+    </metadata>
+</svg>
